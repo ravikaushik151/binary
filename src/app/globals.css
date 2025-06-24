@@ -1541,6 +1541,11 @@ h2 {
   color: #fff;
 }
 
+
+.footer-social a {
+  color: #4b1f0e;
+}
+
 .footer-title {
   font-size: 18px;
   font-weight: 600;
