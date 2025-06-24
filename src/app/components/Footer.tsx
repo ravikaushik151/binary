@@ -55,6 +55,10 @@ export default function Footer() {
                     </form>
                 </div>
             </div>
+            {/* Copyright */}
+            <div className="footer-bottom">
+                <p>© {new Date().getFullYear()} Binary Etania. All rights reserved.</p>
+            </div>
         </footer>
     );
 }

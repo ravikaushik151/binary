@@ -1584,6 +1584,17 @@ h2 {
   }
 }
 
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+  color: #4b1f0e;
+  border-top: 1px solid #4b1f0e;
+  margin-top: 40px;
+}
+
+
+
 
 
 

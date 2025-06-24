@@ -238,12 +238,7 @@ export default function Home() {
             <div className="content">
               <h2>About Us</h2>
               <p>
-                Welcome to a world, where every element is thoughtfully orchestrated to
-                give you a fulfilling and enriching life experience. With <em>Sora</em>{" "}
-                representing the boundless expanse of the sky and <em>Saki</em>{" "}
-                representing the perpetual bloom of life, homes at Sora &amp; Saki
-                perfectly encapsulate the essence of elevated living. Begin your journey
-                into a lifestyle surrounded by like-minded people and convenience.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
               </p>
             </div>
             <div className="image-wrapper">
@@ -628,7 +623,7 @@ export default function Home() {
                           <div className="home-highlights_point-circle">
                             <div className="home-highlights_point-text">8</div>
                           </div>
-                          <div className="home-highlights_text">Kids' Play Area</div>
+                          <div className="home-highlights_text">Kids Play Area</div>
                         </div>
                       </div>
                       <div className="home-highlights_points-grid last">
@@ -721,7 +716,7 @@ export default function Home() {
                         <div className="text-size-regular text-color-offwhite">
                           A spacious city layout. A direct line to Electronic City. Fast
                           connectivity to most of Bengaluru. Hosa Road is full of
-                          opportunities and is primed to be the city's new hub.
+                          opportunities and is primed to be the citys new hub.
                         </div>
                       </div>
                     </div>
