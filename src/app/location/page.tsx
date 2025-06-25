@@ -78,9 +78,8 @@ export default function Location() {
                             style={{ border: 0 }}
                             allowFullScreen={true}
                             loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade">
-
-                        </iframe>
+                            referrerPolicy="no-referrer-when-downgrade" // ✅ Fixed
+                        ></iframe>
                     </div>
                     <div
                         id="w-node-ae28a13d-3673-7d72-6c93-35ac2b8ff216-ac1b3e9a"
