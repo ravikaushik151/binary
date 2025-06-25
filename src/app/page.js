@@ -208,8 +208,10 @@ export default function Home() {
           <section className="section-1" id='about'>
             <div className="content">
               <h2>About Us</h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              <p>At Binary Realty, we don’t just build structures — we shape meaningful spaces that reflect aspirations, enhance lifestyles, and stand the test of time. With every project, we blend innovation with intention, delivering homes defined by design clarity, construction excellence, and long-term value.</p>
+              <p>Driven by a team that brings together deep industry experience and a forward-looking mindset, we approach each development as an opportunity to create more than just living spaces — we build communities rooted in trust, quality, and modern urban thinking.
+              </p>
+              <p>From vision to reality, every detail matters — and at Binary Realty, we ensure each one brings you closer to a better way of living.
               </p>
             </div>
             <div className="image-wrapper">
