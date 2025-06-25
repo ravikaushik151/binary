@@ -208,7 +208,7 @@ export default function Home() {
               <Image
                 width={500}
                 height={900}
-                src="/images/Club-Entrance-View-min.jpg"
+                src="/images/Club-Entrance-View-min_Binary.webp"
                 alt="Luxury interior"
               />
             </div>
