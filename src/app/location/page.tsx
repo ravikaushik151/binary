@@ -68,7 +68,7 @@ export default function Location() {
                     </div>
                 </div>
             </section>
-            <div className="section_home-connectivity" id='location'>
+            <div className="section_home-connectivity px-5" id='location'>
                 <div className="home-connectivity_components">
                     <div className="home-connectivity_image-wrapper">
                         <iframe

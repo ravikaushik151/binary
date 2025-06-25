@@ -6610,6 +6610,7 @@ figcaption {
   .section_home-stats {
     height: auto;
     padding-top: 5rem;
+    padding-bottom: 50px;
   }
 
   .home-stats_components {

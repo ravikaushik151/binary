@@ -337,6 +337,17 @@ p {
   letter-spacing: 3%;
 }
 
+.navbar .navbar-collapse .nav-item .nav-link {
+  color: #000 !important;
+  padding: 10px 25px !important;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.41;
+  letter-spacing: 3%;
+}
+
+
 #carouselExampleDark {
   position: relative !important;
 }
