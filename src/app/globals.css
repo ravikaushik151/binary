@@ -347,9 +347,23 @@ p {
   letter-spacing: 3%;
 }
 
+/* animation.css or globals.css */
 .navbar-animated {
-  transition: background-color 0.3s ease, box-shadow 0.3s ease, top 0.3s ease;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  will-change: transform, opacity;
 }
+
+.navbar-hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.navbar-visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
 
 
 .transition-all {
