@@ -7,8 +7,11 @@ import { usePathname } from "next/navigation";
 
 export default function Header() {
     const pathname = usePathname();
+    const [showHeader, setShowHeader] = useState(true);
     const [isFixed, setIsFixed] = useState(false);
+    const [lastScrollTop, setLastScrollTop] = useState(0);
 
+    // Collapse mobile menu on route change
     useEffect(() => {
         const collapseEl = document.getElementById("navbarScroll");
         if (collapseEl?.classList.contains("show")) {
@@ -16,23 +19,38 @@ export default function Header() {
         }
     }, [pathname]);
 
+    // Detect scroll direction
     useEffect(() => {
         const handleScroll = () => {
+            const scrollTop = window.scrollY || document.documentElement.scrollTop;
+
             const sliderHeight = document.getElementById("main-slider")?.offsetHeight || 300;
-            setIsFixed(window.scrollY > sliderHeight);
+            setIsFixed(scrollTop > sliderHeight);
+
+            // Show on scroll up, hide on scroll down
+            if (scrollTop > lastScrollTop && scrollTop > 100) {
+                setShowHeader(false);
+            } else {
+                setShowHeader(true);
+            }
+
+            setLastScrollTop(scrollTop <= 0 ? 0 : scrollTop);
         };
 
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
+    }, [lastScrollTop]);
+
+    // Common header class based on scroll
+    const headerClass = `${isFixed ? "position-fixed top-0 w-100 bg-white" : "position-absolute w-100"} ${showHeader ? "opacity-100" : "opacity-0"} transition-all`;
 
     return (
         <>
             {/* Mobile Navbar */}
-            <nav className="navbar navbar-expand-lg bg-white d-md-none shadow-sm">
+            <nav className={`navbar navbar-expand-lg bg-white d-md-none shadow-sm ${headerClass}`} style={{ zIndex: 999 }}>
                 <div className="container-fluid">
                     <Link href="/" className="navbar-brand">
-                        <Image src="/img/logo.png" alt="logo" width={80} height={66} />
+                        <Image src="/img/logo.png" className="logo" alt="logo" width={80} height={66} />
                     </Link>
 
                     <button
@@ -62,10 +80,7 @@ export default function Header() {
             </nav>
 
             {/* Desktop Navbar */}
-            <div
-                className={`d-none d-md-block ${isFixed ? "position-fixed top-0 w-100 bg-white shadow-sm" : "position-absolute w-100"}`}
-                style={{ zIndex: 999 }}
-            >
+            <div className={`navbar-animated d-none d-md-block ${headerClass}`} style={{ zIndex: 999 }}>
                 <div className="container py-3 d-flex justify-content-between align-items-center">
                     <Link href="/">
                         <Image
@@ -100,7 +115,6 @@ export default function Header() {
                     </nav>
                 </div>
             </div>
-
         </>
     );
 }

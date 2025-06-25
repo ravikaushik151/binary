@@ -87,7 +87,7 @@ export default function Home() {
 
 
       <main className="main-wrapper">
-        <div className="overflow-clip">
+        <div className="overflow-clip" id="main-slider">
           <div
             id="TOP"
             data-w-id="fdbb3392-f834-7a53-ef0d-9c7bd7a9a3b3"
