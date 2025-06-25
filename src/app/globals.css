@@ -1687,3 +1687,34 @@ footer button:hover {
   background: #fff !important;
   width: 100% !important;
 }
+
+.project-info-section {
+  background-color: #1e291d;
+  padding: 60px 0;
+  font-family: Times New Roman, sans-serif;
+}
+
+.project-info-section p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.project-info-section h6 {
+  margin-bottom: 0.5rem;
+}
+
+.pricing-card {
+  background-color: #f8f5ee;
+  border-radius: 20px;
+  transition: transform 0.2s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+}
+
+.bhk-tag {
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+}

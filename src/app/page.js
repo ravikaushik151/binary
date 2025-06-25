@@ -182,59 +182,30 @@ export default function Home() {
           </div>
         </div>
         <div id="scroll-more">
-          <section className="py-5 bg-white d-none">
+          <section className="project-info-section">
             <div className="container">
-              <h2 className="text-center mb-5">Project Overview</h2>
-              <div className="row g-4 justify-content-center">
-                {/* 2 BHK */}
-                <div className="col-md-4">
-                  <div className="card border-0 shadow-sm h-100 text-center">
-                    <img src="images/2bhk.jpg" className="card-img-top" alt="2 BHK" />
-                    <div className="card-body">
-                      <h5 className="card-title">2 BHK Apartments</h5>
-                      <p className="card-text">Size: 1180 - 1200 sq.ft</p>
-                      <p className="card-text">
-                        <strong>Starting at ₹98 Lakhs</strong>
-                      </p>
-                    </div>
-                  </div>
+              <div className="row text-center text-white">
+                <div className="col-6 col-md-3 border-end border-light">
+                  <h6 className="fw-bold text-uppercase fs-5">Project Size</h6>
+                  <p className="mb-0 fs-2 fw-light">80 Acres</p>
                 </div>
-                {/* 3 BHK */}
-                <div className="col-md-4">
-                  <div className="card border-0 shadow-sm h-100 text-center">
-                    <img src="images/3bhk.jpg" className="card-img-top" alt="3 BHK" />
-                    <div className="card-body">
-                      <h5 className="card-title">3 BHK Apartments</h5>
-                      <p className="card-text">Size: 1630 - 1660 sq.ft</p>
-                      <p className="card-text">
-                        <strong>Starting at ₹1.35 Cr</strong>
-                      </p>
-                    </div>
-                  </div>
+                <div className="col-6 col-md-3 border-end border-light">
+                  <h6 className="fw-bold text-uppercase fs-5">Possession</h6>
+                  <p className="mb-0 fs-2 fw-light">2029</p>
                 </div>
-                {/* Offer */}
-                <div className="col-md-4">
-                  <div className="card border-0 shadow-sm h-100 text-center bg-light">
-                    <img
-                      src="images/no-emi.jpg"
-                      className="card-img-top"
-                      alt="No EMI Offer"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title text-primary">Special Offer</h5>
-                      <p className="card-text fs-5">No EMI till Possession</p>
-                    </div>
-                  </div>
+                <div className="col-6 col-md-3 border-end border-light mt-4 mt-md-0">
+                  <h6 className="fw-bold text-uppercase fs-5">Starting Price</h6>
+                  <p className="mb-0 fs-2 fw-light">Rs 98 Lack*</p>
                 </div>
-              </div>
-              {/* Amenities */}
-              <div className="mt-5 text-center">
-                <h4 className="mb-3">30+ World-Class Amenities</h4>
+                <div className="col-6 col-md-3 mt-4 mt-md-0">
+                  <h6 className="fw-bold text-uppercase fs-5">Available Units</h6>
+                  <p className="mb-0 fs-2 fw-light">2 &amp; 3 BHK</p>
+                </div>
               </div>
             </div>
           </section>
 
-          <section className="section-1">
+          <section className="section-1" id='about'>
             <div className="content">
               <h2>About Us</h2>
               <p>
@@ -280,7 +251,7 @@ export default function Home() {
                       >
                         <div className="text-color-accent">
                           <h2 className="heading-style-h1">
-                            15,000<span className="heading-style-h5">sq. ft.</span>
+                            2 & 3 <span className="heading-style-h5">BHKS</span>
                           </h2>
                         </div>
                         <div className="text-color-offwhite">
@@ -305,8 +276,47 @@ export default function Home() {
             </div>
           </div>
 
+          <section className="py-5 bg-light" id='price'>
+            <div className="container">
+              <h2 className='text-center'>Price</h2>
+              <div className="row justify-content-center g-4">
+                {/* 2 BHK Card */}
+                <div className="col-12 col-md-6 col-lg-4">
+                  <div className="pricing-card text-center p-4 rounded-4 shadow-sm bg-white">
+                    <div className="bhk-tag border border-success text-success fw-bold py-2 rounded-3 mb-3">
+                      2 BHK
+                    </div>
+                    <h4 className="fw-bold mb-1">₹ 98 Lakh*</h4>
+                    <p className="mb-1">Onwards</p>
+                    <p className="text-muted mb-3">Size – 1180 to 1200 Sq.ft.</p>
+                    <hr />
+                    <a href="#" className="btn btn-dark fw-bold mt-3">
+                      Click here
+                    </a>
+                  </div>
+                </div>
+                {/* 3 BHK Card */}
+                <div className="col-12 col-md-6 col-lg-4">
+                  <div className="pricing-card text-center p-4 rounded-4 shadow-sm bg-white">
+                    <div className="bhk-tag border border-success text-success fw-bold py-2 rounded-3 mb-3">
+                      3 BHK
+                    </div>
+                    <h4 className="fw-bold mb-1">₹ 1.35 Cr*</h4>
+                    <p className="mb-1">Onwards</p>
+                    <p className="text-muted mb-3">Size – 1630 to 1660 Sq.ft.</p>
+                    <hr />
+                    <a href="#" className="btn btn-dark fw-bold mt-3">
+                      Click here
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
           {/* Section 2: 360 Lifestyle Cards */}
-          <div className="section_biodiversity-benefits">
+          <div className="section_biodiversity-benefits" id='amenities'>
             <div className="padding-global">
               <div className="container-large">
                 <div className="biodiversity-benefits_components">
@@ -481,7 +491,7 @@ export default function Home() {
           </div>
           <div
             data-w-id="8905ac58-eaf7-356f-bf47-4ad8001e257f"
-            className="section_home-masterplan"
+            className="section_home-masterplan" id='master-plan'
           >
             <div className="padding-global">
               <div className="container-large">
@@ -682,20 +692,21 @@ export default function Home() {
               className="home-highlights_left-leaf"
             />
           </div>
-          <div className="section_home-connectivity">
+          <div className="section_home-connectivity" id='location'>
             <div className="padding-global">
               <div className="container-large">
                 <div className="home-connectivity_components">
                   <div className="home-connectivity_image-wrapper">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.649711541122!2d77.7096572748225!3d12.835401390302296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae167addb62dd7%3A0x1c5045d755a6be5d!2sIms%2C%20Bengaluru!5e0!3m2!1sen!2sin!4v1711968077853!5m2!1sen!2sin"
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d17483.264883338023!2d77.773876!3d12.864455!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae73000cbfed1d%3A0x86b4704e1c53785c!2sBinary%20Temple%20Tree!5e1!3m2!1sen!2sin!4v1750827706567!5m2!1sen!2sin"
                       width="100%"
                       height="600"
                       style={{ border: 0 }}
                       allowFullScreen={true}
                       loading="lazy"
-                      referrerPolicy="no-referrer-when-downgrade"
-                    />
+                      referrerpolicy="no-referrer-when-downgrade">
+
+                    </iframe>
                   </div>
                   <div
                     id="w-node-ae28a13d-3673-7d72-6c93-35ac2b8ff216-ac1b3e9a"
@@ -834,7 +845,7 @@ export default function Home() {
                         </div>
                         <div className="home-connectivity_distance-text">
                           <div className="text-color-offwhite">
-                            <div className="text-size-large">HAL Old Airport Road</div>
+                            <div className="text-size-large">Airport Road</div>
                           </div>
                           <div className="text-color-silvermist">
                             <div className="text-size-regular">12 kms</div>
