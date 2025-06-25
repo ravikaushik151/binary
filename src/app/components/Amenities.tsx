@@ -4,13 +4,14 @@ import Image from 'next/image';
 import styles from '../../public/css/BiodiversityHighlights.module.css';
 
 const images = [
-    '/images/Tennis.jpg',
-    '/images/badmiton.jpg',
-    '/images/dog.jpg',
-    '/images/biodiversity-highlights-4.png',
-    '/images/biodiversity-highlights-5.png',
-    '/images/biodiversity-highlights-6.png',
-    '/images/jogging.jpg',
+    '/images/Badminton Court.webp',
+    '/images/Basket Ball Court.webp',
+    '/images/Club-Entrance-View-min_Binary.webp',
+    '/images/Indoor Gym.webp',
+    '/images/Jogging Track .webp',
+    '/images/Swimming.webp',
+    '/images/Table Tennis.webp',
+    '/images/Yoga.webp',
 ];
 
 export default function Amenities() {
