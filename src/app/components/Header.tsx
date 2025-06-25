@@ -83,7 +83,7 @@ export default function Header() {
                                         </div>
                                         <div >Home</div>
                                     </Link>
-                                    <Link href="#about" className="nav-link_wrap w-inline-block w--current">
+                                    <Link href="/#about" className="nav-link_wrap w-inline-block w--current">
                                         <div className="nav-link-icon w-embed">
                                             <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <circle cx="4" cy="4" r="4" fill="#a1c889" />
@@ -91,7 +91,7 @@ export default function Header() {
                                         </div>
                                         <div >About</div>
                                     </Link>
-                                    <Link href="#price" className="nav-link_wrap w-inline-block w--current">
+                                    <Link href="/#price" className="nav-link_wrap w-inline-block w--current">
                                         <div className="nav-link-icon w-embed">
                                             <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <circle cx="4" cy="4" r="4" fill="#a1c889" />
@@ -99,7 +99,7 @@ export default function Header() {
                                         </div>
                                         <div >Price</div>
                                     </Link>
-                                    <Link href="#amenities" className="nav-link_wrap w-inline-block w--current">
+                                    <Link href="/#amenities" className="nav-link_wrap w-inline-block w--current">
                                         <div className="nav-link-icon w-embed">
                                             <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <circle cx="4" cy="4" r="4" fill="#a1c889" />

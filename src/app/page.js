@@ -2,11 +2,10 @@
 import { useEffect } from 'react';
 
 import Link from "next/link";
-import Preloader from "./components/Preloader";
 import Amenities from './components/Amenities';
 import Image from 'next/image';
-
 export default function Home() {
+
   useEffect(() => {
     if (typeof window !== 'undefined' && window.Lenis) {
       const lenis = new window.Lenis({
@@ -98,8 +97,10 @@ export default function Home() {
               data-w-id="32a0484c-1834-6612-d729-c9b71ab0b8cc"
               className="home-hero_backgound-wrapper"
             >
-              <img
-                src="images/hero-image-edit-bg-1-1.png"
+              <Image
+                width={1920}
+                height={1080}
+                src="/images/hero-image-edit-bg-1-1.png"
                 loading="eager"
                 alt="Hero nature background"
                 className="home-hero_background-image"
@@ -128,17 +129,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div
-              data-w-id="ff347ae9-4a33-9025-77fd-d9d20a599180"
-              className="home-hero_image-wrapper"
-            >
-              <img
-                src="images/hero-image-edit-4.png"
-                loading="eager"
-                alt=""
-                className="home-hero_image"
-              />
-            </div>
             <div className="home-hero_experience-wrapper">
               <div className="home-hero_experience-content">
                 <div
@@ -152,7 +142,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="home-hero_button">
-                  <a
+                  <Link
                     href="#scroll-more"
                     data-w-id="bc94cbd8-ce4d-341c-c820-bc43343c5866"
                     className="home-hero_button-wrap w-inline-block"
@@ -175,7 +165,7 @@ export default function Home() {
                         </svg>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -706,9 +696,8 @@ export default function Home() {
                       style={{ border: 0 }}
                       allowFullScreen={true}
                       loading="lazy"
-                      referrerpolicy="no-referrer-when-downgrade">
-
-                    </iframe>
+                      referrerPolicy="no-referrer-when-downgrade" // ✅ Fixed
+                    ></iframe>
                   </div>
                   <div
                     id="w-node-ae28a13d-3673-7d72-6c93-35ac2b8ff216-ac1b3e9a"
