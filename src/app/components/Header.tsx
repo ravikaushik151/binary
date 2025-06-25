@@ -63,13 +63,18 @@ export default function Header() {
 
             {/* Desktop Navbar */}
             <div
-                className={`d-none d-md-block ${isFixed ? "position-fixed top-0 w-100 bg-white shadow-sm" : "position-absolute w-100"
-                    }`}
+                className={`d-none d-md-block ${isFixed ? "position-fixed top-0 w-100 bg-white shadow-sm" : "position-absolute w-100"}`}
                 style={{ zIndex: 999 }}
             >
                 <div className="container py-3 d-flex justify-content-between align-items-center">
                     <Link href="/">
-                        <Image src="/img/logo.png" className="logo" alt="logo" width={100} height={66} />
+                        <Image
+                            src="/img/logo.png"
+                            alt="logo"
+                            width={100}
+                            height={66}
+                            className={isFixed ? "logo" : ""}
+                        />
                     </Link>
                     <nav className="d-flex gap-4">
                         {[
@@ -81,7 +86,11 @@ export default function Header() {
                             { href: "/location", label: "Location" },
                             { href: "/#contact", label: "Contact" },
                         ].map((link) => (
-                            <Link key={link.href} href={link.href} className="text-dark text-decoration-none d-flex align-items-center gap-1">
+                            <Link
+                                key={link.href}
+                                href={link.href}
+                                className={`text-decoration-none d-flex align-items-center gap-1 ${isFixed ? "text-dark" : "text-white"}`}
+                            >
                                 <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="4" cy="4" r="4" fill="#a1c889" />
                                 </svg>
@@ -91,6 +100,7 @@ export default function Header() {
                     </nav>
                 </div>
             </div>
+
         </>
     );
 }

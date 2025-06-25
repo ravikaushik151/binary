@@ -100,7 +100,7 @@ export default function Home() {
               <Image
                 width={1920}
                 height={1080}
-                src="/images/hero-image-edit-bg-1-1.png"
+                src="/images/web-banner.webp"
                 loading="eager"
                 alt="Hero nature background"
                 className="home-hero_background-image"
