@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import Link from "next/link";
 import Amenities from './components/Amenities';
 import Image from 'next/image';
+import HeroSlider from './components/Home/HeroSlider';
 export default function Home() {
 
   useEffect(() => {
@@ -87,90 +88,7 @@ export default function Home() {
 
 
       <main className="main-wrapper">
-        <div className="overflow-clip" id="main-slider">
-          <div
-            id="TOP"
-            data-w-id="fdbb3392-f834-7a53-ef0d-9c7bd7a9a3b3"
-            className="section-home_hero"
-          >
-            <div
-              data-w-id="32a0484c-1834-6612-d729-c9b71ab0b8cc"
-              className="home-hero_backgound-wrapper"
-            >
-              <Image
-                width={1920}
-                height={1080}
-                src="/images/web-banner.webp"
-                loading="eager"
-                alt="Hero nature background"
-                className="home-hero_background-image"
-              />
-            </div>
-            <div className="padding-global">
-              <div className="home-hero_content-wrapper">
-                <div
-                  data-w-id="e2520bdf-27cc-4170-9a9b-d109ad8b8353"
-                  className="home-hero_forest-content"
-                >
-                  <div className="text-color-offwhite">
-                    <h1 className="display-1">See the forest</h1>
-                  </div>
-                </div>
-                <div
-                  data-w-id="48a399cc-bca8-ec64-6c57-b90df97cbb33"
-                  className="home-forest_breathe-content"
-                >
-                  <div className="text-color-offwhite">
-                    <h1 className="display-1">
-                      <span className="span-text text-color-enchanted">breathe</span>{" "}
-                      with you
-                    </h1>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="home-hero_experience-wrapper">
-              <div className="home-hero_experience-content">
-                <div
-                  data-w-id="71cf7792-bbdc-9de6-daa4-7bc2deef980d"
-                  className="home-hero_experience"
-                >
-                  <div className="text-color-offwhite">
-                    <h5 className="heading-style-h5">
-                      Introducing 39 acres of the most luxurious experience in nature.
-                    </h5>
-                  </div>
-                </div>
-                <div className="home-hero_button">
-                  <Link
-                    href="#scroll-more"
-                    data-w-id="bc94cbd8-ce4d-341c-c820-bc43343c5866"
-                    className="home-hero_button-wrap w-inline-block"
-                  >
-                    <div className="button is-small">
-                      <div className="button_text">Scroll to learn more</div>
-                      <div className="button-arrow_wrapper oral" />
-                      <div className="button-arrow_image w-embed">
-                        <svg
-                          width={24}
-                          height={24}
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M11.0457 7H12.1075L12.0941 14.9435L15.3602 11.664L16.1398 12.4167L11.5833 17L6.99999 12.4301L7.77956 11.6774L11.0457 14.957V7Z"
-                            fill="#F3F4EF"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <HeroSlider />
         <div id="scroll-more">
           <section className="project-info-section">
             <div className="container">
