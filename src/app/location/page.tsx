@@ -90,10 +90,7 @@ export default function Location() {
                                 <h2
                                     data-animate={1}
                                     className="heading-style-h2 text-color-offwhite"
-                                >
-                                    Located{" "}
-                                    <span className="text-color-accent">Off Hosa Road,</span>{" "}
-                                    Bengaluru.
+                                > Located{" "}<span className="text-color-accent">Off Sarjapur Road, </span>{" "} Bangalore.
                                 </h2>
                             </div>
                             <div className="home-connectivity_text-wrapper">
@@ -119,10 +116,10 @@ export default function Location() {
                                 </div>
                                 <div className="home-connectivity_distance-text">
                                     <div className="text-color-offwhite">
-                                        <div className="text-size-large">HSR Layout</div>
+                                        <div className="text-size-large">Wipro SEZ </div>
                                     </div>
                                     <div className="text-color-silvermist">
-                                        <div className="text-size-regular">7.4 kms</div>
+                                        <div className="text-size-regular">10 mins</div>
                                     </div>
                                 </div>
                             </div>
@@ -140,10 +137,10 @@ export default function Location() {
                                 </div>
                                 <div className="home-connectivity_distance-text">
                                     <div className="text-color-offwhite">
-                                        <div className="text-size-large">Electronic City</div>
+                                        <div className="text-size-large">RGA Tech Park</div>
                                     </div>
                                     <div className="text-color-silvermist">
-                                        <div className="text-size-regular">9 kms</div>
+                                        <div className="text-size-regular">12 mins</div>
                                     </div>
                                 </div>
                             </div>
@@ -161,10 +158,10 @@ export default function Location() {
                                 </div>
                                 <div className="home-connectivity_distance-text">
                                     <div className="text-color-offwhite">
-                                        <div className="text-size-large">Koramangala</div>
+                                        <div className="text-size-large">RMZ Ecoworld</div>
                                     </div>
                                     <div className="text-color-silvermist">
-                                        <div className="text-size-regular">10.5 kms</div>
+                                        <div className="text-size-regular">15 mins</div>
                                     </div>
                                 </div>
                             </div>
@@ -179,10 +176,10 @@ export default function Location() {
                                 </div>
                                 <div className="home-connectivity_distance-text">
                                     <div className="text-color-offwhite">
-                                        <div className="text-size-large">HAL Old Airport Road</div>
+                                        <div className="text-size-large">Outer Ring Road</div>
                                     </div>
                                     <div className="text-color-silvermist">
-                                        <div className="text-size-regular">12 kms</div>
+                                        <div className="text-size-regular">15 mins</div>
                                     </div>
                                 </div>
                             </div>
@@ -200,10 +197,10 @@ export default function Location() {
                                 </div>
                                 <div className="home-connectivity_distance-text">
                                     <div className="text-color-offwhite">
-                                        <div className="text-size-large">Koramangala</div>
+                                        <div className="text-size-large">Sarjapur Main Road</div>
                                     </div>
                                     <div className="text-color-silvermist">
-                                        <div className="text-size-regular">10.5 kms</div>
+                                        <div className="text-size-regular">8 mins</div>
                                     </div>
                                 </div>
                             </div>
@@ -218,10 +215,10 @@ export default function Location() {
                                 </div>
                                 <div className="home-connectivity_distance-text">
                                     <div className="text-color-offwhite">
-                                        <div className="text-size-large">Airport Road</div>
+                                        <div className="text-size-large">HSR Layout</div>
                                     </div>
                                     <div className="text-color-silvermist">
-                                        <div className="text-size-regular">12 kms</div>
+                                        <div className="text-size-regular">20 mins</div>
                                     </div>
                                 </div>
                             </div>
