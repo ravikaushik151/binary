@@ -11,9 +11,7 @@ export default function Footer() {
                 <div className="footer-column">
                     <h4 className="footer-title">Binary Etania</h4>
                     <p>
-                        S.Y. No. 19,
-                        <br /> Sompura Gate, Sarjapura Road,
-                        <br />Bengaluru, Karnataka-562125
+                        Sy no. 110/1B Hosahalli road,<br /> Sree Narayana Nagar,<br /> Chikkadunnasandra
                     </p>
                     <div className="footer-rera">
                         <p><strong>RERA NO.</strong></p>

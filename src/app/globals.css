@@ -1763,9 +1763,13 @@ footer button:hover {
 }
 
 .home-masterplan_img {
-  height: 700px;
-  max-height: 700px;
+  height: 500px;
+  max-height: 500px;
   width: 100%;
+}
+
+.blur {
+  filter: blur(8px);
 }
 
 @media (max-width: 767.98px) {
