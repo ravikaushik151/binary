@@ -1,36 +1,58 @@
+/* BiodiversityHighlights.module.css */
+
 .section {
     overflow: hidden;
-    padding: 60px 0;
+    padding: 2rem 0;
 }
 
 .marquee {
-    display: flex;
+    white-space: nowrap;
     overflow: hidden;
     position: relative;
-    width: 100%;
 }
 
 .marqueeContent {
     display: flex;
-    animation: scroll-left 40s linear infinite;
+    animation: scroll 25s linear infinite;
+}
+
+.marquee:hover .marqueeContent {
+    animation-play-state: paused;
 }
 
 .imageWrapper {
-    flex: none;
-    margin: 0 10px;
+    flex: 0 0 auto;
+    margin-right: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imageWrapper:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .image {
-    object-fit: cover;
     border-radius: 8px;
+    max-width: 100%;
 }
 
-@keyframes scroll-left {
-    0% {
+.imageTitle {
+    border-radius: 5px;
+    background-color: white;
+    color: #212529;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Animation keyframes */
+@keyframes scroll {
+    from {
         transform: translateX(0%);
     }
 
-    100% {
+    to {
         transform: translateX(-50%);
     }
 }
