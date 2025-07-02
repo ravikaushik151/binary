@@ -2179,11 +2179,12 @@ figcaption {
 }
 
 .section_biodiversity-benefits {
-  background-color: #7c986b;
+  background-color: #1e291d;
   width: 100%;
   padding-top: 4rem;
   padding-bottom: 4rem;
   overflow: clip;
+  color: #fff;
 }
 
 .biodiversity-benefits_components {
@@ -2196,7 +2197,7 @@ figcaption {
   justify-items: center;
   margin-left: auto;
   margin-right: auto;
-  display: grid;
+  /* display: grid;*/
 }
 
 .biodiversity-benefits_items {
