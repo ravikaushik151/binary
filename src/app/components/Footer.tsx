@@ -13,7 +13,7 @@ export default function Footer() {
                     <p>
                         Sy no. 110/1B Hosahalli road,<br /> Sree Narayana Nagar,<br /> Chikkadunnasandra
                     </p>
-                    <div className="footer-rera">
+                    <div className="footer-rera d-none">
                         <p><strong>RERA NO.</strong></p>
                         <p>PRM/KA/RERA/1251/309/PR/123456/006123</p>
                     </div>

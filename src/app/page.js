@@ -274,12 +274,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <img
-              src="/images/Hightlight-right-leaf-image.svg"
-              loading="lazy"
-              alt=""
-              className="home-highlights_left-leaf"
-            />
           </div>
           <div className="section_home-connectivity" id='location'>
             <div className="padding-global">
