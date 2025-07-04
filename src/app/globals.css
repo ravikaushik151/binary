@@ -1147,12 +1147,24 @@ h2 {
   font-family: "Times New Roman", sans-serif;
 }
 
+@media screen and (max-width: 991px) {
+  h2 {
+    margin-bottom: 0px;
+    font-family: "Times New Roman", sans-serif;
+  }
+}
+
+
 /* SECTION 1: Luxury & Lifestyle */
 .section-1 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+.section-1 p {
+  text-align: justify;
 }
 
 .section-1 .content {

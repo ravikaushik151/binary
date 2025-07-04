@@ -103,7 +103,7 @@ export default function Home() {
                 </div>
                 <div className="col-6 col-md-3 border-end border-light mt-4 mt-md-0">
                   <h6 className="fw-bold text-uppercase fs-5">Starting Price</h6>
-                  <p className="mb-0 fs-2 fw-light">Rs 98 lakh*</p>
+                  <p className="mb-0 fs-2 fw-light">Rs 98 Lakh*</p>
                 </div>
                 <div className="col-6 col-md-3 mt-4 mt-md-0">
                   <h6 className="fw-bold text-uppercase fs-5">Available Units</h6>
@@ -196,7 +196,7 @@ export default function Home() {
                     <div className="bhk-tag border border-success text-success fw-bold py-2 rounded-3 mb-3">
                       2 BHK
                     </div>
-                    <h4 className="fw-bold mb-1">₹ 98 lakh*</h4>
+                    <h4 className="fw-bold mb-1">₹ 98 Lakh*</h4>
                     <p className="mb-1">Onwards</p>
                     <p className="text-muted mb-3">Size – 1188 Sq.ft.</p>
                     <hr />
@@ -252,7 +252,7 @@ export default function Home() {
                     id="w-node-_147bc8d0-b385-cc95-4439-b2fc20fb618b-ac1b3eca"
                     className="biodiversity-benefits_header-wrap"
                   >
-                    <h2 data-animate={1} className="heading-style-h2">
+                    <h2 data-animate={1} className="heading-style-h2 text-center">
                       The Master Plan
                     </h2>
                   </div>
