@@ -54,7 +54,7 @@ export default function Footer() {
             {/* Copyright */}
             <div className="footer-bottom">
                 <p className='d-none'>© {new Date().getFullYear()} Binary Etania. All rights reserved. Digital Partner <a target="_blank" href="https://www.imsolutions.co/" className="text-dark">IM Solutions</a></p>
-                <p>This is not the official website of developer & property. It belongs to authorized channel partner for information purpose only. All rights for logo & images are reserved to developer. Thank you for visiting our website. This disclaimer ("Disclaimer") is applicable to this website and all microsites and websites owned by us. By using or accessing this website you agree with the Disclaimer without any qualification or limitation.</p>
+                <p>This is not the official website of developer & property. It belongs to authorized channel partner for information purpose only. All rights for logo & images are reserved to developer. Thank you for visiting our website. This disclaimer (Disclaimer) is applicable to this website and all microsites and websites owned by us. By using or accessing this website you agree with the Disclaimer without any qualification or limitation.</p>
             </div>
         </footer>
     );
