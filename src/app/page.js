@@ -149,10 +149,10 @@ export default function Home() {
                         className="home-stats_item"
                       >
                         <div className="text-color-accent">
-                          <h2 className="heading-style-h1">128</h2>
+                          <h2 className="heading-style-h1 mb-2">128</h2>
                         </div>
                         <div className="text-color-offwhite">
-                          <div className="text-size-regular">Units.</div>
+                          <div className="text-size-regular fs-5">Units.</div>
                         </div>
                       </div>
                       <div
@@ -160,12 +160,12 @@ export default function Home() {
                         className="home-stats_item"
                       >
                         <div className="text-color-accent">
-                          <h2 className="heading-style-h1">
+                          <h2 className="heading-style-h1 mb-2">
                             2 & 3 <span className="heading-style-h5">BHKS</span>
                           </h2>
                         </div>
                         <div className="text-color-offwhite">
-                          <div className="text-size-regular">Apartments</div>
+                          <div className="text-size-regular fs-5">Apartments</div>
                         </div>
                       </div>
                       <div
@@ -173,10 +173,10 @@ export default function Home() {
                         className="home-stats_item"
                       >
                         <div className="text-color-accent">
-                          <h2 className="heading-style-h1">30+</h2>
+                          <h2 className="heading-style-h1 mb-2">30+</h2>
                         </div>
                         <div className="text-color-offwhite">
-                          <div className="text-size-regular">World Class Amenities</div>
+                          <div className="text-size-regular fs-5">World Class Amenities</div>
                         </div>
                       </div>
                     </div>
@@ -304,9 +304,7 @@ export default function Home() {
                       </div>
                       <div className="home-connectivity_text-wrapper">
                         <div className="text-size-regular text-color-offwhite">
-                          A spacious city layout. A direct line to Electronic City. Fast
-                          connectivity to most of Bengaluru. Hosa Road is full of
-                          opportunities and is primed to be the citys new hub.
+                          A spacious urban corridor. Seamless access to IT hubs like Whitefield and Outer Ring Road. With fast-growing infrastructure and excellent connectivity across East and South Bengaluru, Sarjapura Road is emerging as the city’s next vibrant growth destination.
                         </div>
                       </div>
                     </div>
