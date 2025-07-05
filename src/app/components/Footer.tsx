@@ -9,9 +9,9 @@ export default function Footer() {
             <div className="footer-container">
 
                 {/* Project Info */}
-                <div className="footer-column">
-                    <h4 className="footer-title">Binary Etania</h4>
-                    <p>
+                <div className="footer-column text-center">
+                    <h4 className="footer-title fs-2">Binary Etania</h4>
+                    <p className=''>
                         Sy no. 110/1B Hosahalli road,<br /> Sree Narayana Nagar,<br /> Chikkadunnasandra
                     </p>
                     <div className="footer-rera d-none">
@@ -21,7 +21,7 @@ export default function Footer() {
                 </div>
 
                 {/* Developer Info */}
-                <div className="footer-column">
+                <div className="footer-column d-none">
                     <h4 className="footer-title">Binary</h4>
                     <p>
                         S.Y. No. 19,
@@ -31,7 +31,7 @@ export default function Footer() {
                     <p className="footer-contact">+91 96112 11255</p>
                     <p>sales@binaryrealty.in</p>
                 </div>
-                <div className="footer-column">
+                <div className="footer-column  d-none">
                     <div className="footer-association mt-0">
                         <Image
                             src="/img/logo.png"
@@ -48,7 +48,7 @@ export default function Footer() {
                     </div>
                 </div>
                 {/* Get In Touch Form */}
-                <div className="footer-column">
+                <div className="footer-column text-center w-50">
                     <h4 className="footer-heading">GET IN TOUCH</h4>
                     <form className="footer-form">
                         <input type="text" placeholder="Name" className="footer-input" />
