@@ -317,6 +317,13 @@ p {
   filter: brightness(0) saturate(100%) invert(60%) sepia(29%) saturate(377%) hue-rotate(54deg) brightness(90%) contrast(88%);
 }
 
+.brown-logo {
+  padding: 0px 0;
+  max-width: 148px;
+  height: auto;
+  filter: brightness(0) saturate(100%) invert(12%) sepia(23%) saturate(3513%) hue-rotate(349deg) brightness(97%) contrast(94%);
+}
+
 .scrolled .logo {
   width: 120px;
   height: auto;

@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -31,7 +32,13 @@ export default function Footer() {
                     <p>sales@binaryrealty.in</p>
                 </div>
                 <div className="footer-column">
-                    <div className="footer-association">
+                    <div className="footer-association mt-0">
+                        <Image
+                            src="/img/logo.png"
+                            alt="logo"
+                            width={100}
+                            height={80}
+                            className="brown-logo mb-4" />
                         <p>In Association With</p>
                         <div className="footer-social">
                             <Link href="https://www.facebook.com/people/Binary-Realty/61565957242898/#"><i className="fab fa-facebook-f"></i></Link>
