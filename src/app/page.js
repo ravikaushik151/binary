@@ -186,6 +186,29 @@ export default function Home() {
             </div>
           </div>
 
+          <section className="bg-light p-0">
+            <div className="container-fluid position-relative">
+              {/* Background Image */}
+              <Image
+                width={1600}
+                height={500}
+                src="/img/Binary Etania.jpg"
+                loading="lazy"
+                alt="Etania"
+                className="img-fluid w-100"
+              />
+
+              {/* Button Overlay */}
+              <Link
+                href="#"
+                className="btn btn-dark position-absolute"
+                style={{ top: "400px", left: "375px" }}
+              >
+                View More
+              </Link>
+            </div>
+          </section>
+
           <section className="py-5 bg-light" id='price'>
             <div className="container">
               <h2 className='text-center'>Price</h2>
