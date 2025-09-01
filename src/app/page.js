@@ -200,7 +200,7 @@ export default function Home() {
 
               {/* Button Overlay */}
               <Link
-                href="#"
+                href="aura"
                 className="btn btn-dark position-absolute"
                 style={{ top: "400px", left: "375px" }}
               >
