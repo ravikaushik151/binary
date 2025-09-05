@@ -202,7 +202,7 @@ export default function Home() {
               <Link
                 href="aura"
                 className="btn btn-dark position-absolute"
-                style={{ top: "400px", left: "375px" }}
+                style={{ top: "500px", left: "375px" }}
               >
                 View More
               </Link>
@@ -287,10 +287,10 @@ export default function Home() {
                     <Image
                       width={1600}
                       height={500}
-                      src="/images/masterplan.jpg"
+                      src="/images/aura-master.png"
                       loading="lazy"
                       alt=""
-                      className="home-masterplan_img blur"
+                      className="home-masterplan_img "
                     />
                   </div>
 

@@ -77,11 +77,11 @@ export default function Header() {
                 </div>
             </nav>
 
-            {/* ✅ Desktop Navbar */}
+            {/* ✅ Desktop Navbar position-fixed top-0 */}
             <div
-                className={`navbar-animated position-fixed top-0 w-100 d-none d-md-block ${isVisible ? "navbar-visible bg-white" : "navbar-hidden"
+                className={`navbar-animated  w-100 d-none d-md-block ${isVisible ? "navbar-visible bg-white" : "navbar-hidden"
                     } ${lastScrollY < 100 ? "bg-transparent" : ""}`}
-                style={{ zIndex: 999 }}
+                style={{ zIndex: 999 , backgroundColor : "#1e291d !important"}}
             >
                 <div className="container py-3 d-flex justify-content-between align-items-center">
                     <Link href="/">
@@ -90,7 +90,7 @@ export default function Header() {
                             alt="logo"
                             width={100}
                             height={66}
-                            className={lastScrollY < 100 ? "" : "logo"}
+                            className={lastScrollY < 100 ? " img-fluid" : "logo img-fluid"}
                         />
                     </Link>
                     <nav className="d-flex gap-4">

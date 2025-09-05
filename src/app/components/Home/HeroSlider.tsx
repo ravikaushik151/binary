@@ -16,7 +16,7 @@ const slides = [
         desc: 'Experience tranquility amidst 60% open green spaces',
         button: 'Enquire Now',
         href: '#contact',
-        img: '/images/web-banner.webp',
+        img: '/images/home-banner.png',
     },
     {
         title: 'Where Luxury Meets Serenity',
@@ -24,7 +24,7 @@ const slides = [
         desc: '',
         button: 'Book Your Site Visit',
         href: '#contact',
-        img: '/images/web-banner.webp',
+        img: '/images/home-banner.png',
     },
     {
         title: 'A Breath of Fresh Living',
@@ -32,7 +32,7 @@ const slides = [
         desc: '',
         button: 'Explore More',
         href: '#about',
-        img: '/images/web-banner.webp',
+        img: '/images/home-banner.png',
     },
 ];
 
@@ -55,14 +55,16 @@ export default function HomeHeroSlider() {
                 {slides.map((slide, i) => (
                     <SwiperSlide key={i}>
                         <div className="position-relative text-white d-flex align-items-center" style={{ height: '100vh' }}>
-                            <Image
-                                src={slide.img}
-                                alt={slide.title}
-                                layout="fill"
-                                objectFit="cover"
-                                className="z-n1"
-                            />
-                            <div className="container position-relative z-1">
+                            <Link href='/aura'>
+                                <Image
+                                    src={slide.img}
+                                    alt={slide.title}
+                                    layout="fill"
+
+                                    className="z-n1 object-fit-cover"
+                                />
+                            </Link>
+                            <div className="container position-relative z-1 d-none">
                                 <div className="text-start">
                                     <h1 className="display-3 fw-bold mb-3">{slide.title}</h1>
                                     {slide.subtitle && <h4 className="mb-3 fw-light">{slide.subtitle}</h4>}

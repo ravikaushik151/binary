@@ -21,7 +21,7 @@ export default function Aura() {
                                         {" "}
                                         About us
                                     </p>
-                                    <p className="text-center d-block fs-6 ">
+                                    <p className="text-center d-block fs-6 my-3">
                                         <Link
                                             className="text-white text-decoration-none"
                                             href={"./"}
@@ -45,11 +45,11 @@ export default function Aura() {
                             {/* Left Image */}
                             <div className="col-md-6 mb-4 mb-md-0">
                                 <Image
-                                    src="/img/living-room.jpg" // replace with your actual image path
+                                    src="/images/aura-img01.png" // replace with your actual image path
                                     alt="Architecture"
                                     width={600}
                                     height={400}
-                                    className="img-fluid rounded shadow"
+                                    className="img-fluid rounded shadow my-5"
                                 />
                             </div>
 
@@ -77,21 +77,21 @@ export default function Aura() {
                             {/* Right Image */}
                             <div className="col-md-6 text-center">
                                 <Image
-                                    src="/img/privacy.jpg" // replace with your actual image
+                                    src="/images/aura-img02.png" // replace with your actual image
                                     alt="Privacy"
                                     width={600}
                                     height={400}
-                                    className="img-fluid rounded shadow"
+                                    className="img-fluid rounded shadow my-5"
                                 />
                             </div>
                             {/* Left Image */}
                             <div className="col-md-6 mb-4 mb-md-0">
                                 <Image
-                                    src="/img/retreat.jpg" // replace with your actual image
+                                    src="/images/aura-img03.png" // replace with your actual image
                                     alt="Retreat"
                                     width={600}
                                     height={400}
-                                    className="img-fluid rounded shadow"
+                                    className="img-fluid rounded shadow my-5"
                                 />
                             </div>
 
@@ -119,11 +119,11 @@ export default function Aura() {
                             {/* Right Image */}
                             <div className="col-md-6 text-center">
                                 <Image
-                                    src="/img/aeration.jpg" // replace with your actual image
+                                    src="/images/aura-img04.png" // replace with your actual image
                                     alt="Aeration"
                                     width={600}
                                     height={400}
-                                    className="img-fluid rounded shadow"
+                                    className="img-fluid rounded shadow my-5"
                                 />
                             </div>
                         </div>
