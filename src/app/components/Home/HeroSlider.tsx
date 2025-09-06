@@ -16,7 +16,7 @@ const slides = [
         desc: 'Experience tranquility amidst 60% open green spaces',
         button: 'Enquire Now',
         href: '#contact',
-        img: '/images/home-banner.png',
+        img: '/images/home-banner.avif',
     },
     {
         title: 'Where Luxury Meets Serenity',
@@ -24,7 +24,7 @@ const slides = [
         desc: '',
         button: 'Book Your Site Visit',
         href: '#contact',
-        img: '/images/home-banner.png',
+        img: '/images/home-banner.avif',
     },
     {
         title: 'A Breath of Fresh Living',
@@ -32,7 +32,7 @@ const slides = [
         desc: '',
         button: 'Explore More',
         href: '#about',
-        img: '/images/home-banner.png',
+        img: '/images/home-banner.avif',
     },
 ];
 

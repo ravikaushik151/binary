@@ -45,7 +45,7 @@ export default function Aura() {
                             {/* Left Image */}
                             <div className="col-md-6 mb-4 mb-md-0 order-1 order-md-1">
                                 <Image
-                                    src="/images/aura-img01.png" // replace with your actual image path
+                                    src="/images/Aura1.png" // replace with your actual image path
                                     alt="Architecture"
                                     width={600}
                                     height={400}
@@ -80,7 +80,7 @@ export default function Aura() {
                             {/* Right Image */}
                             <div className="col-md-6 text-center order-1 order-md-2">
                                 <Image
-                                    src="/images/aura-img02.png" // replace with your actual image
+                                    src="/images/Aura2.png" // replace with your actual image
                                     alt="Privacy"
                                     width={600}
                                     height={400}
@@ -92,7 +92,7 @@ export default function Aura() {
                             {/* Left Image */}
                             <div className="col-md-6 mb-4 mb-md-0 order-1 order-md-1">
                                 <Image
-                                    src="/images/aura-img03.png" // replace with your actual image
+                                    src="/images/Aura3.png" // replace with your actual image
                                     alt="Retreat"
                                     width={600}
                                     height={400}
@@ -126,7 +126,7 @@ export default function Aura() {
                             {/* Right Image */}
                             <div className="col-md-6 text-center order-1 order-md-2">
                                 <Image
-                                    src="/images/aura-img04.png" // replace with your actual image
+                                    src="/images/Aura4.png" // replace with your actual image
                                     alt="Aeration"
                                     width={600}
                                     height={400}
