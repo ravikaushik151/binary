@@ -43,7 +43,7 @@ export default function Aura() {
                     <div className="container-large">
                         <div className="row align-items-center">
                             {/* Left Image */}
-                            <div className="col-md-6 mb-4 mb-md-0">
+                            <div className="col-md-6 mb-4 mb-md-0 order-1 order-md-1">
                                 <Image
                                     src="/images/aura-img01.png" // replace with your actual image path
                                     alt="Architecture"
@@ -54,19 +54,22 @@ export default function Aura() {
                             </div>
 
                             {/* Right Text */}
-                            <div className="col-md-6">
-                                <h1 className="display-3 fw-bold">A</h1>
-                                <h3 className="fw-semibold">
+                            <div className="col-md-6 order-2 order-md-2">
+                                <h1 className="display-1 fw-bold">A</h1>
+                                <h3 className="fw-normal">
                                     Architecture that <br /> inspires and endures.
                                 </h3>
                                 <p className="text-muted">
                                     Design crafted not just to look timeless, but to live timeless.
                                 </p>
                             </div>
+
+                        </div>
+                        <div className="row align-items-center">
                             {/* Left Text */}
-                            <div className="col-md-6 mb-4 mb-md-0">
-                                <h1 className="display-3 fw-bold">U</h1>
-                                <h3 className="fw-semibold">
+                            <div className="col-md-6 mb-4 mb-md-0 order-2 order-md-1">
+                                <h1 className="display-1 fw-bold">U</h1>
+                                <h3 className="fw-normal">
                                     Utmost Privacy with <br /> no common walls.
                                 </h3>
                                 <p className="text-muted">
@@ -75,7 +78,7 @@ export default function Aura() {
                             </div>
 
                             {/* Right Image */}
-                            <div className="col-md-6 text-center">
+                            <div className="col-md-6 text-center order-1 order-md-2">
                                 <Image
                                     src="/images/aura-img02.png" // replace with your actual image
                                     alt="Privacy"
@@ -84,8 +87,10 @@ export default function Aura() {
                                     className="img-fluid rounded shadow my-5"
                                 />
                             </div>
+                        </div>
+                        <div className="row align-items-center">
                             {/* Left Image */}
-                            <div className="col-md-6 mb-4 mb-md-0">
+                            <div className="col-md-6 mb-4 mb-md-0 order-1 order-md-1">
                                 <Image
                                     src="/images/aura-img03.png" // replace with your actual image
                                     alt="Retreat"
@@ -96,19 +101,21 @@ export default function Aura() {
                             </div>
 
                             {/* Right Text */}
-                            <div className="col-md-6">
-                                <h1 className="display-3 fw-bold">R</h1>
-                                <h3 className="fw-semibold">
+                            <div className="col-md-6 order-2 order-md-2">
+                                <h1 className="display-1 fw-bold">R</h1>
+                                <h3 className="fw-normal">
                                     Retreat that soothes <br /> your soul.
                                 </h3>
                                 <p className="text-muted">
                                     A sanctuary where every corner feels like an escape.
                                 </p>
                             </div>
+                        </div>
+                        <div className="row align-items-center">
                             {/* Left Text */}
-                            <div className="col-md-6 mb-4 mb-md-0">
-                                <h1 className="display-3 fw-bold">A</h1>
-                                <h3 className="fw-semibold">
+                            <div className="col-md-6 mb-4 mb-md-0 order-2 order-md-1">
+                                <h1 className="display-1 fw-bold">A</h1>
+                                <h3 className="fw-normal">
                                     Aeration that breathes <br /> life into every corner.
                                 </h3>
                                 <p className="text-muted">
@@ -117,7 +124,7 @@ export default function Aura() {
                             </div>
 
                             {/* Right Image */}
-                            <div className="col-md-6 text-center">
+                            <div className="col-md-6 text-center order-1 order-md-2">
                                 <Image
                                     src="/images/aura-img04.png" // replace with your actual image
                                     alt="Aeration"
