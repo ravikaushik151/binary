@@ -189,11 +189,11 @@ export default function Home() {
             </div>
           </div>
 
-          <section className="bg-white py-md-5 py-5">
+          <section className="bg-white p-0">
             <div className="container-fluid ">
               <div className='row align-items-center'>
 
-                <div className='col-md-5 offset-md-1 px-md-5 d-flex align-items-center ' >
+                <div className='col-md-5 offset-md-1 px-md-5 d-flex align-items-center py-md-5 py-5 ' >
                   <div>
                     <h2 className="display-2 mb-4 text-secondary text-opacity-50 text-capitalize">The Soul of  Etania</h2>
                     <p className="fs-2 ps-5 mb-3 text-black " style={{ fontFamily: "Times New Roman, sans-serif !important" }} >  Every Home here carries a rare</p>
@@ -207,8 +207,8 @@ export default function Home() {
 
                   </div>
                 </div>
-                <div className='col-md-6'>
-                  <Image src={"/img/Binary-Etania.avif"} alt="Etania" width={880} height={600} className="img-fluid " />
+                <div className='offset-md-1 col-md-5 '>
+                  <Image src={"/img/Binary-Etania.jpg"} alt="Etania" width={880} height={600} className="img-fluid " />
                 </div>
               </div>
 
@@ -289,7 +289,7 @@ export default function Home() {
                       <img src="/images/specifications/Icon.png" className="img-fluid" />
                       <h3>Structure</h3>
                       <div className="specifications-box-content">
-                         <ul className='list-unstyled'>
+                        <ul className='list-unstyled'>
                           <li>RCC framed structure with 6-inch thick outer walls and 4-inch thick internal walls</li>
                         </ul>
                       </div>
@@ -300,7 +300,7 @@ export default function Home() {
                       <img src="/images/specifications/plastering.png" className="img-fluid" />
                       <h3>Plastering</h3>
                       <div className="specifications-box-content">
-                         <ul className='list-unstyled'>
+                        <ul className='list-unstyled'>
                           <li>External & Internal single coat cement plaster</li>
                         </ul>
                       </div>
@@ -312,7 +312,7 @@ export default function Home() {
                       <img src="/images/specifications/Icon6.png" className="img-fluid" />
                       <h3>Painting</h3>
                       <div className="specifications-box-content">
-                         <ul className='list-unstyled'>
+                        <ul className='list-unstyled'>
                           <li>External: Textured finish, primer, and two coats of emulsion (Asian/reputed)..</li>
                           <li>Internal: Smooth putty, primer, and two coats of emulsion (Asian/reputed).</li>
                         </ul>
@@ -324,7 +324,7 @@ export default function Home() {
                       <img src="/images/specifications/Icon3.png" className="img-fluid" />
                       <h3> Door</h3>
                       <div className="specifications-box-content">
-                         <ul className='list-unstyled'>
+                        <ul className='list-unstyled'>
                           <li>The main door is engineered wood with a full-width jamb.<br />
                             Internal doors are engineered wood with a laminated finish.<br />
                             Toilet and utility doors are WPC with high-quality hardware.<br />
@@ -338,7 +338,7 @@ export default function Home() {
                       <img src="/images/specifications/window.png" className="img-fluid" />
                       <h3>Windows</h3>
                       <div className="specifications-box-content">
-                         <ul className='list-unstyled'>
+                        <ul className='list-unstyled'>
                           <li>UPVC sliding windows with mosquito mesh</li>
                         </ul>
                       </div>
@@ -350,7 +350,7 @@ export default function Home() {
                       <img src="/images/specifications/window.png" className="img-fluid" />
                       <h3>FLOORING</h3>
                       <div className="specifications-box-content">
-                         <ul className='list-unstyled'>
+                        <ul className='list-unstyled'>
                           <li>800x800 mm double charged vitrified tiles</li>
                         </ul>
                       </div>
@@ -362,7 +362,7 @@ export default function Home() {
                       <img src="/images/specifications/window.png" className="img-fluid" />
                       <h3>BACKUP POWER</h3>
                       <div className="specifications-box-content">
-                         <ul className='list-unstyled'>
+                        <ul className='list-unstyled'>
                           <li>100% DG Backup power for common areas <br />
                             1 KVA for each apartment
                           </li>
@@ -376,7 +376,7 @@ export default function Home() {
                       <img src="/images/specifications/Icon2.png" className="img-fluid" />
                       <h3>Electrical</h3>
                       <div className="specifications-box-content">
-                         <ul className='list-unstyled'>
+                        <ul className='list-unstyled'>
                           <li>Great White switches / Anchor or equivalent, and fire-resistant wires from Great White / Anchor or an equivalent brand.</li>
                         </ul>
                       </div>
@@ -387,7 +387,7 @@ export default function Home() {
                       <img src="/images/specifications/Icon2.png" className="img-fluid" />
                       <h3>Electrical POINTS</h3>
                       <div className="specifications-box-content">
-                         <ul className='list-unstyled'>
+                        <ul className='list-unstyled'>
                           <li>Points for appliances and 2 extra plugs.<br />
                             TV and phone points in the living and master bedrooms.<br />
                             Geyser and exhaust fan points in toilets.<br />
@@ -403,7 +403,7 @@ export default function Home() {
                       <img src="/images/specifications/window.png" className="img-fluid" />
                       <h3>ELEVATOR</h3>
                       <div className="specifications-box-content">
-                         <ul className='list-unstyled'>
+                        <ul className='list-unstyled'>
                           <li>6/8 passenger elevator from OTIS, or equivalent.</li>
                         </ul>
                       </div>
@@ -413,9 +413,9 @@ export default function Home() {
                   <div className="col-6 col-md-3 mb-4">
                     <div className="specifications-box">
                       <img src="/images/specifications/Icon7.png" className="img-fluid" />
-                      <h3>TOILETS (4’X2’)</h3> 
+                      <h3>TOILETS (4’X2’)</h3>
                       <div className="specifications-box-content">
-                         <ul className='list-unstyled'>
+                        <ul className='list-unstyled'>
                           <li>Antiskid ceramic tiles of reputed make and dado up to door height</li>
 
                         </ul>
@@ -455,7 +455,7 @@ export default function Home() {
                       <img src="/images/specifications/Icon4.png" className="img-fluid" />
                       <h3>CP & SANITARY FITTINGS & FIXTURES </h3>
                       <div className="specifications-box-content">
-                         <ul className='list-unstyled'>
+                        <ul className='list-unstyled'>
                           <li>ISI CP and sanitary fittings from Grohe/Kohler, or equivalent.<br />
                             Soft close seat cover and monolithic sink from TOTO/Kohler or equivalent.
 
