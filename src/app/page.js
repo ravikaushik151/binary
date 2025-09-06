@@ -413,7 +413,7 @@ export default function Home() {
                   <div className="col-6 col-md-3 mb-4">
                     <div className="specifications-box">
                       <img src="/images/specifications/Icon7.png" className="img-fluid" />
-                      <h3>TOILETS (4’X2’)</h3>
+                      <h3>TOILETS (4’X2’)</h3> 
                       <div className="specifications-box-content">
                          <ul className='list-unstyled'>
                           <li>Antiskid ceramic tiles of reputed make and dado up to door height</li>
