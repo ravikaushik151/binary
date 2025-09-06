@@ -88,8 +88,8 @@ export default function Header() {
                         <Image
                             src="/img/logo.png"
                             alt="logo"
-                            width={100}
-                            height={66}
+                            width={74}
+                            height={60}
                             className={lastScrollY < 100 ? " img-fluid" : "logo img-fluid position-fixed top-0"}
                         />
                     </Link>

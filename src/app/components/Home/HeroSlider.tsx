@@ -38,7 +38,7 @@ const slides = [
 
 export default function HomeHeroSlider() {
     return (
-        <div className="overflow-hidden position-relative">
+        <div className="overflow-hidden position-relative p-0">
             <Swiper
                 modules={[Autoplay, Navigation, EffectFade, Pagination]}
                 navigation={{
@@ -54,7 +54,8 @@ export default function HomeHeroSlider() {
 
                 {slides.map((slide, i) => (
                     <SwiperSlide key={i}>
-                        <div className="position-relative text-white d-flex align-items-center" style={{ height: '100vh' }}>
+                        <Image src={slide.img} alt={slide.title} width={1980} height={824} className=" img-fluid" />
+                        {/* <div className="position-relative text-white d-flex align-items-center" style={{ height: '100vh' }}>
                             <Link href='/aura'>
                                 <Image
                                     src={slide.img}
@@ -74,7 +75,7 @@ export default function HomeHeroSlider() {
                                     </Link>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </SwiperSlide>
                 ))}
 

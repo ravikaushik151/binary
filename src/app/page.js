@@ -5,6 +5,8 @@ import Link from "next/link";
 import Amenities from './components/Amenities';
 import Image from 'next/image';
 import HeroSlider from './components/Home/HeroSlider';
+import AmenitiesCarousel from "./components/Home/AmenitiesCarousel";
+import AmenitiesCarouselTwo from './components/Home/AmenitiesCarouselTwo';
 export default function Home() {
 
   useEffect(() => {
@@ -186,27 +188,30 @@ export default function Home() {
             </div>
           </div>
 
-          <section className="bg-light p-0">
-            <div className="container-fluid position-relative">
-              {/* Background Image */}
-              <Image
-                width={1600}
-                height={500}
-                src="/img/Binary Etania.jpg"
-                loading="lazy"
-                alt="Etania"
-                className="img-fluid w-100"
-              />
+          <section className="bg-white py-md-5 py-5">
+            <div className="container-fluid ">
+              <div className='row align-items-center'>
+
+                <div className='col-md-5 offset-md-1 px-md-5 d-flex align-items-center ' >
+                  <div>
+                    <h2 className="display-2 mb-4 text-secondary text-opacity-50 text-capitalize">The Soul of  Etania</h2>
+                    <p className="fs-2 ps-5 mb-3 text-black " style={{ fontFamily: "Times New Roman, sans-serif !important" }} >  Every Home here carries a rare</p>
+                    <h1 className="display-2 ps-5 text-uppercase mb-0" style={{ letterSpacing: '2px' }}> Aura</h1>
+                    <p className='text-secondary   ps-md-5 ps-5 mt-0 mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.</p>
+                    <div className=' ps-md-5 ps-5'>
+                      <Link href="aura" className="btn btn-dark " >
+                        View More
+                      </Link>
+                    </div>
+
+                  </div>
+                </div>
+                <div className='col-md-6'>
+                  <Image src={"/img/Binary-Etania.avif"} alt="Etania" width={880} height={600} className="img-fluid " />
+                </div>
+              </div>
 
 
-              {/* Button Overlay */}
-              <Link
-                href="aura"
-                className="btn btn-dark position-absolute"
-                style={{ top: "500px", left: "375px" }}
-              >
-                View More
-              </Link>
             </div>
           </section>
 
@@ -249,8 +254,29 @@ export default function Home() {
           </section>
 
 
+
+
+          <div className="same-gap centered-text-section py-5" id='amenities'>
+            <div className="container">
+              <div className="row">
+                <div className="title text-center mb-6">
+                  <h2 className="text-dark text-3xl font-semibold">Amenities</h2>
+                </div>
+              </div>
+              <div className="row my-2 py-1">
+                <AmenitiesCarousel />
+              </div>
+              <div className="row my-2 py-1">
+                <AmenitiesCarouselTwo />
+              </div>
+            </div>
+
+
+
+          </div>
+
           {/* Section 2: 360 Lifestyle Cards */}
-          <div className="section_biodiversity-benefits" id='amenities'>
+          {/* <div className="section_biodiversity-benefits" id='amenities'>
             <div className="container-large">
               <div className="biodiversity-benefits_components">
                 <div
@@ -264,7 +290,9 @@ export default function Home() {
               </div>
             </div>
             <Amenities />
-          </div>
+
+
+          </div> */}
           <div
             data-w-id="8905ac58-eaf7-356f-bf47-4ad8001e257f"
             className="section_home-masterplan" id='master-plan'
