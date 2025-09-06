@@ -280,7 +280,7 @@ export default function Home() {
           <section className="section same-gap " id="specifications" style={{backgroundColor: "#1e291d"}}>
             <div className="container-fluid px-md-3 px-3 " style={{ "background-size": "60%", "background-position": "bottom", "background-repeat": "no-repeat" }}>
               <div className="title text-center">
-                <h2 className="" style={{ "font-size": "36px !important","color" : "#738e62" }}>Specifications</h2>
+                <h2 className="" style={{ "font-size": "36px !important","color" : "#fff" }}>Specifications</h2>
               </div>
               <div className="col-md-11 d-block mx-auto  d-block mx-auto">
                 <div className="row  ">
@@ -514,7 +514,7 @@ export default function Home() {
                       src="/images/Master_Plan_01.jpg"
                       loading="lazy"
                       alt=""
-                      className="home-masterplan_img "
+                      className="home-masterplan_img border shadow-lg rounded-lg mb-3"
                     />
                   </div>
 
