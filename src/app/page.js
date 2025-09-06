@@ -288,7 +288,7 @@ export default function Home() {
                     <Image
                       width={1600}
                       height={500}
-                      src="/images/aura-master.png"
+                      src="/images/Master Plan_.avif"
                       loading="lazy"
                       alt=""
                       className="home-masterplan_img "
