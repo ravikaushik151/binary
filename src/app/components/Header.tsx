@@ -79,7 +79,7 @@ export default function Header() {
 
             {/* ✅ Desktop Navbar position-fixed top-0 */}
             <div
-                className={`navbar-animated  w-100 d-none d-md-block ${isVisible ? "navbar-visible bg-white" : "navbar-hidden"
+                className={`navbar-animated w-100 d-none d-md-block ${isVisible ? "navbar-visible bg-white" : "navbar-hidden"
                     } ${lastScrollY < 100 ? "bg-transparent" : ""}`}
                 style={{ zIndex: 999 , backgroundColor : "#1e291d !important"}}
             >
@@ -90,7 +90,7 @@ export default function Header() {
                             alt="logo"
                             width={100}
                             height={66}
-                            className={lastScrollY < 100 ? " img-fluid" : "logo img-fluid"}
+                            className={lastScrollY < 100 ? " img-fluid" : "logo img-fluid position-fixed top-0"}
                         />
                     </Link>
                     <nav className="d-flex gap-4">
