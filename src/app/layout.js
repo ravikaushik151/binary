@@ -9,10 +9,23 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { useEffect } from 'react';
+import localFont from "next/font/local";
 
 
 
 import ContactFormPopup from './components/ContactFormPopup';
+
+// Astrid font define karo
+const astrid = localFont({
+  src: [
+    {
+      path: "../../public/fonts/Astrid.otf", // correct path
+      weight: "400", // agar multiple weights nahi hain to 400 hi rakhna
+      style: "normal",
+    },
+  ],
+  variable: "--font-astrid", // optional, CSS variable ke liye
+});
 
 export default function RootLayout({ children }) {
 
@@ -71,7 +84,7 @@ export default function RootLayout({ children }) {
   }, []);
 
   return (
-    <html data-wf-page="123456" lang="en">
+    <html data-wf-page="123456" lang="en" className={`${astrid.variable}`}>
       <head>
         <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
         <link rel="apple-touch-icon" href="/images/webclip.svg" />

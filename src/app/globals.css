@@ -279,6 +279,9 @@ input[type="file"]:focus-visible {
   }
 }
 
+:root {
+  --font-astrid: "Astrid";
+}
 
 html,
 body {
@@ -293,6 +296,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 25px;
+}
+
+h1,
+h2 {
+  font-family: var(--font-astrid), sans-serif;
 }
 
 p {
