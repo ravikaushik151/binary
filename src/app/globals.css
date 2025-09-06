@@ -1852,14 +1852,16 @@ footer button:hover {
 
 .specifications-box img {
   max-width: 100%;
-  max-width: 80[x];
+  max-width: 80px;
   margin-bottom: 10px;
   margin-top: 20px;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
 }
 
 .specifications-box h3 {
   margin-bottom: 20px;
   color: #fff;
+  text-transform: uppercase;
 }
 
 

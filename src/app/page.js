@@ -347,7 +347,7 @@ export default function Home() {
 
                   <div className="col-6 col-md-3 mb-4">
                     <div className="specifications-box">
-                      <img src="/images/specifications/window.png" className="img-fluid" />
+                      <img src="/images/specifications/flooring.png" className="img-fluid" />
                       <h3>FLOORING</h3>
                       <div className="specifications-box-content">
                         <ul className='list-unstyled'>
@@ -359,7 +359,7 @@ export default function Home() {
 
                   <div className="col-6 col-md-3 mb-4">
                     <div className="specifications-box">
-                      <img src="/images/specifications/window.png" className="img-fluid" />
+                      <img src="/images/specifications/backup.png" className="img-fluid" />
                       <h3>BACKUP POWER</h3>
                       <div className="specifications-box-content">
                         <ul className='list-unstyled'>
@@ -384,7 +384,7 @@ export default function Home() {
                   </div>
                   <div className="col-6 col-md-3 mb-4">
                     <div className="specifications-box">
-                      <img src="/images/specifications/Icon2.png" className="img-fluid" />
+                      <img src="/images/specifications/electrical-point.png" className="img-fluid" />
                       <h3>Electrical POINTS</h3>
                       <div className="specifications-box-content">
                         <ul className='list-unstyled'>
@@ -400,7 +400,7 @@ export default function Home() {
 
                   <div className="col-6 col-md-3 mb-4">
                     <div className="specifications-box">
-                      <img src="/images/specifications/window.png" className="img-fluid" />
+                      <img src="/images/specifications/elevator.png" className="img-fluid" />
                       <h3>ELEVATOR</h3>
                       <div className="specifications-box-content">
                         <ul className='list-unstyled'>
@@ -412,7 +412,7 @@ export default function Home() {
 
                   <div className="col-6 col-md-3 mb-4">
                     <div className="specifications-box">
-                      <img src="/images/specifications/Icon7.png" className="img-fluid" />
+                      <img src="/images/specifications/toilets.png" className="img-fluid" />
                       <h3>TOILETS (4’X2’)</h3>
                       <div className="specifications-box-content">
                         <ul className='list-unstyled'>
@@ -425,7 +425,7 @@ export default function Home() {
 
                   <div className="col-6 col-md-3 mb-4">
                     <div className="specifications-box">
-                      <img src="/images/specifications/Icon4.png" className="img-fluid" />
+                      <img src="/images/specifications/balcony.png" className="img-fluid" />
                       <h3>UTILITY AND BALCONY</h3>
                       <div className="specifications-box-content">
                         <ul className='list-unstyled'>
@@ -440,7 +440,7 @@ export default function Home() {
                   </div>
                   <div className="col-6 col-md-3 mb-4">
                     <div className="specifications-box">
-                      <img src="/images/specifications/Icon4.png" className="img-fluid" />
+                      <img src="/images/specifications/kitchen.png" className="img-fluid" />
                       <h3>Kitchen </h3>
                       <div className="specifications-box-content">
                         <ul className='list-unstyled'>
@@ -452,7 +452,7 @@ export default function Home() {
                   </div>
                   <div className="col-6 col-md-3 mb-4">
                     <div className="specifications-box">
-                      <img src="/images/specifications/Icon4.png" className="img-fluid" />
+                      <img src="/images/specifications/cp-sanitary.png" className="img-fluid" />
                       <h3>CP & SANITARY FITTINGS & FIXTURES </h3>
                       <div className="specifications-box-content">
                         <ul className='list-unstyled'>
