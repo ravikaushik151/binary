@@ -12,7 +12,6 @@ import { useEffect } from 'react';
 import localFont from "next/font/local";
 
 
-
 import ContactFormPopup from './components/ContactFormPopup';
 
 // Astrid font define karo
