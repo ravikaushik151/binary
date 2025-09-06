@@ -511,7 +511,7 @@ export default function Home() {
                     <Image
                       width={1600}
                       height={500}
-                      src="/images/Master Plan_.avif"
+                      src="/images/Master_Plan_01.jpg"
                       loading="lazy"
                       alt=""
                       className="home-masterplan_img "
