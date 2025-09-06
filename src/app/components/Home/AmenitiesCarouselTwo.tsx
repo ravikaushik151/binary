@@ -31,7 +31,7 @@ export default function AmenitiesCarouselTwo() {
     
     autoplay={{ delay: 2500, reverseDirection: true, disableOnInteraction: false }}
     loop={true}
-    dir="rtl"   // 👈 Makes it scroll in reverse
+    dir="vertical"   // 👈 Makes it scroll in reverse
     breakpoints={{
      320: { slidesPerView: 1 },
      640: { slidesPerView: 2 },

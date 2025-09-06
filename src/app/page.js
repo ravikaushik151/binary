@@ -7,6 +7,7 @@ import Image from 'next/image';
 import HeroSlider from './components/Home/HeroSlider';
 import AmenitiesCarousel from "./components/Home/AmenitiesCarousel";
 import AmenitiesCarouselTwo from './components/Home/AmenitiesCarouselTwo';
+
 export default function Home() {
 
   useEffect(() => {
@@ -274,6 +275,200 @@ export default function Home() {
 
 
           </div>
+
+
+          <section className="section same-gap bg-black" id="specifications">
+            <div className="container-fluid px-md-3 px-3 bg-black" style={{ "background-size": "60%", "background-position": "bottom", "background-repeat": "no-repeat" }}>
+              <div className="title text-center">
+                <h2 className="text-white" style={{ "font-size": "36px !important" }}>Specifications</h2>
+              </div>
+              <div className="col-md-11 d-block mx-auto  d-block mx-auto">
+                <div className="row  ">
+                  <div className="col-6 col-md-3 mb-4">
+                    <div className="specifications-box">
+                      <img src="/images/specifications/Icon.png" className="img-fluid" />
+                      <h3>Structure</h3>
+                      <div className="specifications-box-content">
+                         <ul className='list-unstyled'>
+                          <li>RCC framed structure with 6-inch thick outer walls and 4-inch thick internal walls</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-6 col-md-3 mb-4">
+                    <div className="specifications-box">
+                      <img src="/images/specifications/plastering.png" className="img-fluid" />
+                      <h3>Plastering</h3>
+                      <div className="specifications-box-content">
+                         <ul className='list-unstyled'>
+                          <li>External & Internal single coat cement plaster</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-6 col-md-3 mb-4">
+                    <div className="specifications-box">
+                      <img src="/images/specifications/Icon6.png" className="img-fluid" />
+                      <h3>Painting</h3>
+                      <div className="specifications-box-content">
+                         <ul className='list-unstyled'>
+                          <li>External: Textured finish, primer, and two coats of emulsion (Asian/reputed)..</li>
+                          <li>Internal: Smooth putty, primer, and two coats of emulsion (Asian/reputed).</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-6 col-md-3 mb-4">
+                    <div className="specifications-box">
+                      <img src="/images/specifications/Icon3.png" className="img-fluid" />
+                      <h3> Door</h3>
+                      <div className="specifications-box-content">
+                         <ul className='list-unstyled'>
+                          <li>The main door is engineered wood with a full-width jamb.<br />
+                            Internal doors are engineered wood with a laminated finish.<br />
+                            Toilet and utility doors are WPC with high-quality hardware.<br />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-6 col-md-3 mb-4">
+                    <div className="specifications-box">
+                      <img src="/images/specifications/window.png" className="img-fluid" />
+                      <h3>Windows</h3>
+                      <div className="specifications-box-content">
+                         <ul className='list-unstyled'>
+                          <li>UPVC sliding windows with mosquito mesh</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-6 col-md-3 mb-4">
+                    <div className="specifications-box">
+                      <img src="/images/specifications/window.png" className="img-fluid" />
+                      <h3>FLOORING</h3>
+                      <div className="specifications-box-content">
+                         <ul className='list-unstyled'>
+                          <li>800x800 mm double charged vitrified tiles</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-6 col-md-3 mb-4">
+                    <div className="specifications-box">
+                      <img src="/images/specifications/window.png" className="img-fluid" />
+                      <h3>BACKUP POWER</h3>
+                      <div className="specifications-box-content">
+                         <ul className='list-unstyled'>
+                          <li>100% DG Backup power for common areas <br />
+                            1 KVA for each apartment
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-6 col-md-3 mb-4">
+                    <div className="specifications-box">
+                      <img src="/images/specifications/Icon2.png" className="img-fluid" />
+                      <h3>Electrical</h3>
+                      <div className="specifications-box-content">
+                         <ul className='list-unstyled'>
+                          <li>Great White switches / Anchor or equivalent, and fire-resistant wires from Great White / Anchor or an equivalent brand.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-6 col-md-3 mb-4">
+                    <div className="specifications-box">
+                      <img src="/images/specifications/Icon2.png" className="img-fluid" />
+                      <h3>Electrical POINTS</h3>
+                      <div className="specifications-box-content">
+                         <ul className='list-unstyled'>
+                          <li>Points for appliances and 2 extra plugs.<br />
+                            TV and phone points in the living and master bedrooms.<br />
+                            Geyser and exhaust fan points in toilets.<br />
+                            AC points in the living room, master bedroom, and children’s bedroom.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-6 col-md-3 mb-4">
+                    <div className="specifications-box">
+                      <img src="/images/specifications/window.png" className="img-fluid" />
+                      <h3>ELEVATOR</h3>
+                      <div className="specifications-box-content">
+                         <ul className='list-unstyled'>
+                          <li>6/8 passenger elevator from OTIS, or equivalent.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-6 col-md-3 mb-4">
+                    <div className="specifications-box">
+                      <img src="/images/specifications/Icon7.png" className="img-fluid" />
+                      <h3>TOILETS (4’X2’)</h3>
+                      <div className="specifications-box-content">
+                         <ul className='list-unstyled'>
+                          <li>Antiskid ceramic tiles of reputed make and dado up to door height</li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-6 col-md-3 mb-4">
+                    <div className="specifications-box">
+                      <img src="/images/specifications/Icon4.png" className="img-fluid" />
+                      <h3>UTILITY AND BALCONY</h3>
+                      <div className="specifications-box-content">
+                        <ul className='list-unstyled'>
+                          <li>Reputed anti-skid ceramic tiles in the utility area.
+
+                          </li>
+                          <li className='ps-3'>  •	Staircase – Natural Stone flooring with edge polish<br />
+                            •	Corridor – Reputed anti-skid vitrified tiles.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-6 col-md-3 mb-4">
+                    <div className="specifications-box">
+                      <img src="/images/specifications/Icon4.png" className="img-fluid" />
+                      <h3>Kitchen </h3>
+                      <div className="specifications-box-content">
+                        <ul className='list-unstyled'>
+                          <li>Designer modular kitchen electrical points, water purifier/chimney provision, and washing machine space in the utility area.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-6 col-md-3 mb-4">
+                    <div className="specifications-box">
+                      <img src="/images/specifications/Icon4.png" className="img-fluid" />
+                      <h3>CP & SANITARY FITTINGS & FIXTURES </h3>
+                      <div className="specifications-box-content">
+                         <ul className='list-unstyled'>
+                          <li>ISI CP and sanitary fittings from Grohe/Kohler, or equivalent.<br />
+                            Soft close seat cover and monolithic sink from TOTO/Kohler or equivalent.
+
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
 
           {/* Section 2: 360 Lifestyle Cards */}
           {/* <div className="section_biodiversity-benefits" id='amenities'>
