@@ -277,10 +277,10 @@ export default function Home() {
           </div>
 
 
-          <section className="section same-gap bg-black" id="specifications">
-            <div className="container-fluid px-md-3 px-3 bg-black" style={{ "background-size": "60%", "background-position": "bottom", "background-repeat": "no-repeat" }}>
+          <section className="section same-gap " id="specifications" style={{backgroundColor: "#1e291d"}}>
+            <div className="container-fluid px-md-3 px-3 " style={{ "background-size": "60%", "background-position": "bottom", "background-repeat": "no-repeat" }}>
               <div className="title text-center">
-                <h2 className="text-white" style={{ "font-size": "36px !important" }}>Specifications</h2>
+                <h2 className="" style={{ "font-size": "36px !important","color" : "#738e62" }}>Specifications</h2>
               </div>
               <div className="col-md-11 d-block mx-auto  d-block mx-auto">
                 <div className="row  ">
@@ -382,7 +382,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-6 col-md-3 mb-4">
+                  <div className="col-6 col-md-2 mb-4">
                     <div className="specifications-box">
                       <img src="/images/specifications/electrical-point.png" className="img-fluid" />
                       <h3>Electrical POINTS</h3>
@@ -398,7 +398,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="col-6 col-md-3 mb-4">
+                  <div className="col-6 col-md-2 mb-4">
                     <div className="specifications-box">
                       <img src="/images/specifications/elevator.png" className="img-fluid" />
                       <h3>ELEVATOR</h3>
@@ -410,7 +410,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="col-6 col-md-3 mb-4">
+                  <div className="col-6 col-md-2 mb-4">
                     <div className="specifications-box">
                       <img src="/images/specifications/toilets.png" className="img-fluid" />
                       <h3>TOILETS (4’X2’)</h3>
@@ -423,7 +423,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="col-6 col-md-3 mb-4">
+                  <div className="col-6 col-md-2 mb-4">
                     <div className="specifications-box">
                       <img src="/images/specifications/balcony.png" className="img-fluid" />
                       <h3>UTILITY AND BALCONY</h3>
@@ -438,7 +438,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-6 col-md-3 mb-4">
+                  <div className="col-6 col-md-2 mb-4">
                     <div className="specifications-box">
                       <img src="/images/specifications/kitchen.png" className="img-fluid" />
                       <h3>Kitchen </h3>
@@ -450,7 +450,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-6 col-md-3 mb-4">
+                  <div className="col-6 col-md-2 mb-4">
                     <div className="specifications-box">
                       <img src="/images/specifications/cp-sanitary.png" className="img-fluid" />
                       <h3>CP & SANITARY FITTINGS & FIXTURES </h3>
