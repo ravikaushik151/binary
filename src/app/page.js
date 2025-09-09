@@ -203,7 +203,7 @@ export default function Home() {
 
                 <div className='col-md-5 offset-md-1 px-md-5 d-flex align-items-center py-md-5 py-5 ' >
                   <div>
-                    <h2 className="display-2 mb-4 text-secondary text-opacity-50 text-capitalize">The Soul of  Etania</h2>
+                    <h2 className="display-2 mb-4 text-secondary text-opacity-50 text-capitalize" style={{fontSize:"3.6rem !important"}}>The Soul of  Etania</h2>
                     <p className="fs-2 ps-5 mb-3 text-black " style={{ fontFamily: "Times New Roman, sans-serif !important" }} >  Every Home here carries a rare</p>
                     <h1 className="display-2 ps-5 text-uppercase mb-0" style={{ letterSpacing: '2px' }}> Aura</h1>
                     <p className='text-secondary   ps-md-5 ps-5 mt-0 mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.</p>
