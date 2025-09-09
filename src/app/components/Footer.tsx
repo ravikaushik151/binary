@@ -219,17 +219,16 @@ export default function Footer() {
                                     placeholder="Message"
                                     rows={3}
                                     value={formData.message}
-                                    onChange={handleChange}>
-                                </textarea>
-
+                                    onChange={handleChange}
+                                />
                                 {result && <p className="text-success">{result}</p>}
-                                <div className='text-center py-3'>
+                                <div className="text-center py-3">
                                     <button type="submit" className="btn btn-dark btn-sm" disabled={loading}>
                                         {loading ? "Sending..." : "Download"}
                                     </button>
                                 </div>
                             </div>
-
+                        </form>
                     </div>
                 </div>
             </div>
@@ -253,17 +252,15 @@ export default function Footer() {
                                     placeholder="Message"
                                     rows={3}
                                     value={formData.message}
-                                    onChange={handleChange}>
-                                </textarea>
-
+                                    onChange={handleChange}
+                                />
                                 {result && <p className="text-success">{result}</p>}
-                                <div className='text-center py-3'>
-                                    <button type="submit" className="btn btn-dark " disabled={loading}>
+                                <div className="text-center py-3">
+                                    <button type="submit" className="btn btn-dark" disabled={loading}>
                                         {loading ? "Sending..." : "Submit"}
                                     </button>
                                 </div>
                             </div>
-
                         </form>
                     </div>
                 </div>
