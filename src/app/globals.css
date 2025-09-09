@@ -714,7 +714,7 @@ p {
 /* Position the previous button outside the swiper */
 .swiper-button-prev {
   position: absolute !important;
-  top: 60% !important;
+  top: 50% !important;
   left: -40px !important;
   /* Moves it outside the left side */
   transform: translateY(-50%) !important;
@@ -732,7 +732,7 @@ p {
 /* Position the next button outside the swiper */
 .swiper-button-next {
   position: absolute !important;
-  top: 60% !important;
+  top: 50% !important;
   right: -40px !important;
   /* Moves it outside the right side */
   transform: translateY(-50%) !important;
@@ -1664,7 +1664,7 @@ h2 {
   padding: 20px;
   font-size: 13px;
   color: #dedede;
- 
+
   margin-top: 40px;
 }
 
@@ -2013,6 +2013,8 @@ form {
 }
 
 @media only screen and (max-width: 768px) {
+
+ 
   .hero-slider {
     margin-top: 115px;
   }
@@ -2030,7 +2032,7 @@ form {
   .hero-slider .swiper-button-prev {
     left: 10px !important;
     font-size: 16px !important;
-     padding: 5px !important;
+    padding: 5px !important;
   }
 
   .hero-slider .swiper-button-next {
@@ -2038,4 +2040,9 @@ form {
     font-size: 16px !important;
     padding: 5px !important;
   }
+   .hero-slider .swiper-button-next,
+  .hero-slider .swiper-button-prev {
+    top: 60% !important;
+  }
+
 }
