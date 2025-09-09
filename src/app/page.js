@@ -222,9 +222,9 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="py-5 bg-light" id='price'>
+          <section className="py-5 bg-light" id='price' style={{ backgroundColor: "#1e291d !important" }}>
             <div className="container">
-              <h2 className='text-center'>Price</h2>
+              <h2 className='text-center text-white'>Price</h2>
               <div className="row justify-content-center g-4 mb-4">
                 {/* 2 BHK Card */}
                 <div className="col-12 col-md-6 col-lg-4">
@@ -232,11 +232,11 @@ export default function Home() {
                     <div className="bhk-tag border border-success text-success fw-bold py-2 rounded-3 mb-3">
                       2 BHK
                     </div>
-                    <h4 className="fw-bold mb-1">₹ 92 Lakh*</h4>
+                    <h4 className="fw-bold mb-1"> <span className='text-decoration-line-through  fw-bold text-danger'>98 Lakh*</span> &nbsp; ₹ 92 Lakh*</h4>
                     <p className="mb-1">Onwards</p>
                     <p className="text-muted mb-3">Size – 1188 Sq.ft.</p>
                     <hr />
-                    <a href="#" className="btn btn-dark fw-bold mt-3">
+                    <a href="#" className="btn btn-dark fw-bold mt-3" data-bs-toggle="modal" data-bs-target="#enquireNowModal">
                       Click here
                     </a>
                   </div>
@@ -247,11 +247,11 @@ export default function Home() {
                     <div className="bhk-tag border border-success text-success fw-bold py-2 rounded-3 mb-3">
                       3 BHK
                     </div>
-                    <h4 className="fw-bold mb-1">₹ 1.35 Cr*</h4>
+                    <h4 className="fw-bold mb-1"><span className='text-decoration-line-through fw-bold text-danger'>1.35 Cr*</span> ₹ 1.27 Cr*</h4>
                     <p className="mb-1">Onwards</p>
                     <p className="text-muted mb-3">Size – 1639 & 1652 Sq.ft.</p>
                     <hr />
-                    <a href="#" className="btn btn-dark fw-bold mt-3">
+                    <a href="#" className="btn btn-dark fw-bold mt-3" data-bs-toggle="modal" data-bs-target="#enquireNowModal">
                       Click here
                     </a>
                   </div>
@@ -496,7 +496,7 @@ export default function Home() {
           </div> */}
 
 
-          <section className="gallery-section same-gap white-bg blog" id="blog">
+          <section className="gallery-section same-gap white-bg blog" id="blog" >
             <div className="container">
               <div className="title text-center">
                 <h2
@@ -616,7 +616,7 @@ export default function Home() {
           </section>
           <div
             data-w-id="8905ac58-eaf7-356f-bf47-4ad8001e257f"
-            className="section bg-light py-5" id='master-plan'
+            className="section bg-white py-5" id='master-plan'
           >
             <div className="padding-global">
               <div className="container-large">
@@ -640,7 +640,7 @@ export default function Home() {
                       src="/images/Master_Plan_01.jpg"
                       loading="lazy"
                       alt=""
-                      className="home-masterplan_img border shadow-lg rounded-lg mb-3"
+                      className=" border shadow-lg img-fluid rounded-lg mb-3"
                     />
                   </div>
 
@@ -674,7 +674,7 @@ export default function Home() {
                         <h2
                           data-animate={1}
                           className="heading-style-h2 text-color-offwhite text-dark"
-                        > Located{" "}<span className="text-color-accent">On Sarjapur Road, </span>{" "} Bangalore.
+                        > Located{" "}<span className="text-color-accent">On Sompura Gate, Sarjapur Road, </span>{" "} Bangalore.
                         </h2>
                       </div>
                       <div className="home-connectivity_text-wrapper">
