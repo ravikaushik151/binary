@@ -8,6 +8,7 @@ import HeroSlider from './components/Home/HeroSlider';
 import AmenitiesCarousel from "./components/Home/AmenitiesCarousel";
 import AmenitiesCarouselTwo from './components/Home/AmenitiesCarouselTwo';
 import Walkthrough from './components/Home/Walkthrough';
+import FloorPlans from './components/Home/FloorPlans';
 
 export default function Home() {
 
@@ -496,124 +497,7 @@ export default function Home() {
           </div> */}
 
 
-          <section className="gallery-section same-gap white-bg blog" id="blog" >
-            <div className="container">
-              <div className="title text-center">
-                <h2
-                  className="text-dark"
-                  style={{
-                    fontSize: "2.25rem  !important",
-                    fontWeight: "500 !important"
-                  }}
-                >
-                  {" "}
-                  Floor Plans
-                </h2>
-              </div>
-              <div className="row">
-                <div className="col-12 col-md-4 col-lg-3">
-                  <div className="gallery-item">
-                    <div className="img-cont">
-                      <img
-                        src="/images/floor-plan/Unit_1-8_North_Facing_FF_.jpg"
-                        alt="floor plan"
-                        width={750}
-                        height={500}
-                        className="img-fluid mb-3 rounded-2"
-                      />
 
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12 col-md-4 col-lg-3">
-                  <div className="gallery-item">
-                    <div className="img-cont">
-                      <img
-                        src="/images/floor-plan/Unit_1-8_North_Facing_SF_.jpg"
-                        alt="floor plan"
-                        width={750}
-                        height={500}
-                        className="img-fluid mb-3 rounded-2"
-                      />
-
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12 col-md-4 col-lg-3">
-                  <div className="gallery-item">
-                    <div className="img-cont">
-                      <img
-                        src="/images/floor-plan/Unit_9-11-13-14_East_Facing_FF_.jpg"
-                        alt="floor plan"
-                        width={750}
-                        height={500}
-                        className="img-fluid mb-3 rounded-2"
-                      />
-
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12 col-md-4 col-lg-3">
-                  <div className="gallery-item">
-                    <div className="img-cont">
-                      <img
-                        src="/images/floor-plan/Unit_9-11-13-14_East_Facing_SF_.jpg"
-                        alt="floor plan"
-                        width={750}
-                        height={500}
-                        className="img-fluid mb-3 rounded-2"
-                      />
-
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12 col-md-4 col-lg-3">
-                  <div className="gallery-item">
-                    <div className="img-cont">
-                      <img
-                        src="/images/floor-plan/Unit_10-12-15_East_Facing_FF_.jpg"
-                        alt="floor plan"
-                        width={750}
-                        height={500}
-                        className="img-fluid mb-3 rounded-2"
-                      />
-
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12 col-md-4 col-lg-3">
-                  <div className="gallery-item">
-                    <div className="img-cont">
-                      <img
-                        src="/images/floor-plan/Unit_10-12-15_East_Facing_SF_.jpg"
-                        alt="floor plan"
-                        width={750}
-                        height={500}
-                        className="img-fluid mb-3 rounded-2"
-                      />
-
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12 col-md-4 col-lg-3">
-                  <div className="gallery-item">
-                    <div className="img-cont">
-                      <img
-                        src="/images/floor-plan/Unit_16_East_Facing_.jpg"
-                        alt="floor plan"
-                        width={750}
-                        height={500}
-                        className="img-fluid mb-3 rounded-2"
-                      />
-
-                    </div>
-                  </div>
-                </div>
-
-
-              </div>
-            </div>
-          </section>
           <div
             data-w-id="8905ac58-eaf7-356f-bf47-4ad8001e257f"
             className="section bg-white py-5" id='master-plan'
@@ -648,6 +532,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <FloorPlans />
           <Walkthrough />
 
           <div className="section_home-connectivity section bg-light" id='location'>

@@ -7853,10 +7853,11 @@ figcaption {
 .swiper-pagination-bullet {
   background: rgba(255, 255, 255, 0.7);
   opacity: 1;
-  margin: 0 6px;
+  margin: 10px 6px;
   width: 30px !important;
-  height: 3px !important;
-  border-radius: none !important;
+  height: 8px !important;
+  border: 1px solid #dedede;
+  border-radius: 1px !important;
 }
 
 
