@@ -69,11 +69,7 @@ export default function Footer() {
                     </button>
                 </div>
           */}
-            <footer
-                className="bg-dark"
-                style={{ backgroundColor: "#1e291d !important" }}
-                id="contact"
-            >
+            <footer className="" style={{ backgroundColor: "#1e291d" }} id="contact">
                 <div className="container">
                     <div className="row">
                         {/* Left side */}
