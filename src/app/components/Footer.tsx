@@ -213,7 +213,15 @@ export default function Footer() {
                                 <input type="text" name="name" className="form-control mb-2" placeholder="Name" value={formData.name} onChange={handleChange} required />
                                 <input type="email" name="email" className="form-control mb-2" placeholder="Email" value={formData.email} onChange={handleChange} required />
                                 <input type="tel" name="phone" className="form-control mb-2" placeholder="Phone" value={formData.phone} onChange={handleChange} required />
-                                <textarea name="message" className="form-control mb-2" placeholder="Message" rows="3" value={formData.message} onChange={handleChange}></textarea>
+                                <textarea
+                                    name="message"
+                                    className="form-control mb-2"
+                                    placeholder="Message"
+                                    rows={3}
+                                    value={formData.message}
+                                    onChange={handleChange}>
+                                </textarea>
+
                                 {result && <p className="text-success">{result}</p>}
                                 <div className='text-center py-3'>
                                     <button type="submit" className="btn btn-dark btn-sm" disabled={loading}>
@@ -222,7 +230,6 @@ export default function Footer() {
                                 </div>
                             </div>
 
-                        </form>
                     </div>
                 </div>
             </div>
@@ -240,7 +247,15 @@ export default function Footer() {
                                 <input type="text" name="name" className="form-control mb-2" placeholder="Name" value={formData.name} onChange={handleChange} required />
                                 <input type="email" name="email" className="form-control mb-2" placeholder="Email" value={formData.email} onChange={handleChange} required />
                                 <input type="tel" name="phone" className="form-control mb-2" placeholder="Phone" value={formData.phone} onChange={handleChange} required />
-                                <textarea name="message" className="form-control mb-2" placeholder="Message" rows="3" value={formData.message} onChange={handleChange}></textarea>
+                                <textarea
+                                    name="message"
+                                    className="form-control mb-2"
+                                    placeholder="Message"
+                                    rows={3}
+                                    value={formData.message}
+                                    onChange={handleChange}>
+                                </textarea>
+
                                 {result && <p className="text-success">{result}</p>}
                                 <div className='text-center py-3'>
                                     <button type="submit" className="btn btn-dark " disabled={loading}>
