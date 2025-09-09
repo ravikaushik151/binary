@@ -650,7 +650,7 @@ export default function Home() {
           </div>
           <Walkthrough />
 
-          <div className="section_home-connectivity  " id='location'>
+          <div className="section_home-connectivity section bg-light" id='location'>
             <div className="padding-global">
               <div className="container-large">
                 <div className="home-connectivity_components">
@@ -673,12 +673,12 @@ export default function Home() {
                       <div className="home-connectivity_heading-wrapper">
                         <h2
                           data-animate={1}
-                          className="heading-style-h2 text-color-offwhite "
+                          className="heading-style-h2 text-color-offwhite text-dark"
                         > Located{" "}<span className="text-color-accent">On Sarjapur Road, </span>{" "} Bangalore.
                         </h2>
                       </div>
                       <div className="home-connectivity_text-wrapper">
-                        <div className="text-size-regular text-color-offwhite  ">
+                        <div className="text-size-regular text-color-offwhite  text-dark">
                           A spacious urban corridor. Seamless access to IT hubs like Whitefield and Outer Ring Road. With fast-growing infrastructure and excellent connectivity across East and South Bengaluru, Sarjapura Road is emerging as the city’s next vibrant growth destination.
                         </div>
                       </div>
@@ -698,10 +698,10 @@ export default function Home() {
                         </div>
                         <div className="home-connectivity_distance-text">
                           <div className="text-color-offwhite">
-                            <div className="text-size-large ">Wipro SEZ </div>
+                            <div className="text-size-large text-color-accent  text-dark ">Wipro SEZ </div>
                           </div>
                           <div className="text-color-silvermist">
-                            <div className="text-size-regular ">10 mins</div>
+                            <div className="text-size-regular text-color-accent text-dark">10 mins</div>
                           </div>
                         </div>
                       </div>
@@ -719,10 +719,10 @@ export default function Home() {
                         </div>
                         <div className="home-connectivity_distance-text">
                           <div className="text-color-offwhite">
-                            <div className="text-size-large ">RGA Tech Park</div>
+                            <div className="text-size-large text-color-accent  text-dark">RGA Tech Park</div>
                           </div>
                           <div className="text-color-silvermist">
-                            <div className="text-size-regular ">12 mins</div>
+                            <div className="text-size-regular text-color-accent text-dark">12 mins</div>
                           </div>
                         </div>
                       </div>
@@ -740,10 +740,10 @@ export default function Home() {
                         </div>
                         <div className="home-connectivity_distance-text">
                           <div className="text-color-offwhite">
-                            <div className="text-size-large ">RMZ Ecoworld</div>
+                            <div className="text-size-large text-color-accent  text-dark">RMZ Ecoworld</div>
                           </div>
                           <div className="text-color-silvermist">
-                            <div className="text-size-regular ">15 mins</div>
+                            <div className="text-size-regular text-color-accent text-dark">15 mins</div>
                           </div>
                         </div>
                       </div>
@@ -758,10 +758,10 @@ export default function Home() {
                         </div>
                         <div className="home-connectivity_distance-text">
                           <div className="text-color-offwhite">
-                            <div className="text-size-large ">Outer Ring Road</div>
+                            <div className="text-size-large text-color-accent  text-dark">Outer Ring Road</div>
                           </div>
                           <div className="text-color-silvermist">
-                            <div className="text-size-regular ">15 mins</div>
+                            <div className="text-size-regular text-color-accent text-dark">15 mins</div>
                           </div>
                         </div>
                       </div>
@@ -779,10 +779,10 @@ export default function Home() {
                         </div>
                         <div className="home-connectivity_distance-text">
                           <div className="text-color-offwhite">
-                            <div className="text-size-large ">Sarjapur Main Road</div>
+                            <div className="text-size-large text-color-accent  text-dark">Sarjapur Main Road</div>
                           </div>
                           <div className="text-color-silvermist">
-                            <div className="text-size-regular ">8 mins</div>
+                            <div className="text-size-regular text-color-accent text-dark">8 mins</div>
                           </div>
                         </div>
                       </div>
@@ -797,10 +797,10 @@ export default function Home() {
                         </div>
                         <div className="home-connectivity_distance-text">
                           <div className="text-color-offwhite">
-                            <div className="text-size-large ">HSR Layout</div>
+                            <div className="text-size-large text-color-accent  text-dark">HSR Layout</div>
                           </div>
                           <div className="text-color-silvermist">
-                            <div className="text-size-regular ">20 mins</div>
+                            <div className="text-size-regular text-color-accent text-dark">20 mins</div>
                           </div>
                         </div>
                       </div>

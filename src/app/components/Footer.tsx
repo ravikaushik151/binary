@@ -66,7 +66,7 @@ export default function Footer() {
         // </footer>
         <footer
             className="bg-dark"
-            style={{ background: "#000 !important" }}
+           style={{ backgroundColor: "#1e291d !important" }}
             id="contact"
         >
             <div className="container">

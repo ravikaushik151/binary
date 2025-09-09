@@ -15,12 +15,12 @@ export default function Walkthrough() {
  };
 
  return (
-  <section style={{ backgroundColor: "#FEFEFE" }} id="Walkthrough" className="section">
+  <section style={{ backgroundColor: "#1e291d" }} id="Walkthrough" className="section">
    <div className="container ">
     <div className="row justify-content-center text-center">
      <div className=" text-center">
       <h2
-       className="text-capitalize "
+       className="text-capitalize text-white"
 
       >
 
@@ -41,7 +41,7 @@ export default function Walkthrough() {
         data-bs-toggle="modal"
         data-bs-target="#videoModal"
         onClick={openVideo}
-        className="img-fluid rounded"
+        className="img-fluid rounded shadow-lg"
        />
       </div>
      </div>
