@@ -31,10 +31,10 @@ export default function Header() {
     return (
         <>
             {/* ✅ Mobile Navbar */}
-            <nav className={`navbar-animated position-fixed top-0 w-100 navbar navbar-expand-lg bg-white d-md-none shadow-sm ${isVisible ? "navbar-visible bg-white shadow-sm" : "navbar-hidden"
-                }`} style={{ zIndex: 999 }}>
+            <nav className={`navbar navbar-dark navbar-animated position-fixed top-0 w-100 navbar navbar-expand-lg bg-white d-md-none shadow-sm ${isVisible ? "navbar-visible bg-white shadow-sm" : "navbar-hidden"
+                }`}  style={{ zIndex: 999, backgroundColor: "#1e291d !important" }}>
                 <div className="container-fluid">
-                    <Link href="https://binaryrealty.in/" target='_blank' className="navbar-brand">
+                    <Link href="https://binaryrealty.in/" target='_blank' className="navbar-brand ps-3">
                         <Image
                             src="/img/logo.png"
                             alt="logo"
@@ -44,7 +44,7 @@ export default function Header() {
                     </Link>
 
                     <button
-                        className="navbar-toggler"
+                        className="navbar-toggler me-3"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarScroll"
@@ -56,7 +56,7 @@ export default function Header() {
                     </button>
 
                     <div className="collapse navbar-collapse" id="navbarScroll">
-                        <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll ">
                             {[
                                 { href: "/", label: "Home" },
                                 { href: "/#about", label: "About" },
@@ -67,7 +67,7 @@ export default function Header() {
                                 { href: "/#contact", label: "Contact" },
                             ].map((link) => (
                                 <li className="nav-item" key={link.href}>
-                                    <Link className="nav-link" href={link.href}>
+                                    <Link className="nav-link text-white" href={link.href}>
                                         {link.label}
                                     </Link>
                                 </li>
@@ -79,7 +79,7 @@ export default function Header() {
 
             {/* ✅ Desktop Navbar position-fixed top-0 */}
             <div
-                className={`navbar-animated w-100 d-none d-md-block ${isVisible ? "navbar-visible bg-white" : "navbar-hidden"
+                className={` navbar-animated w-100 d-none d-md-block ${isVisible ? "navbar-visible bg-white" : "navbar-hidden"
                     } ${lastScrollY < 100 ? "bg-transparent" : ""}`}
                 style={{ zIndex: 999, backgroundColor: "#1e291d !important" }}
             >
@@ -88,8 +88,8 @@ export default function Header() {
                         <Image
                             src="/img/logo.png"
                             alt="logo"
-                            width={74}
-                            height={60}
+                            width={80}
+                            height={66}
                             className={lastScrollY < 100 ? " img-fluid" : "logo img-fluid position-fixed top-0"}
                         />
                     </Link>

@@ -9,6 +9,7 @@ import AmenitiesCarousel from "./components/Home/AmenitiesCarousel";
 import AmenitiesCarouselTwo from './components/Home/AmenitiesCarouselTwo';
 import Walkthrough from './components/Home/Walkthrough';
 import FloorPlans from './components/Home/FloorPlans';
+import Specifications from './components/Home/Specifications';
 
 export default function Home() {
 
@@ -153,15 +154,15 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className="home-stats_items">
+                    <div className="home-stats_items ">
                       <div
                         id="w-node-cdea1d55-fe63-8f1c-3822-d0c3250461c3-ac1b3e9a"
-                        className="home-stats_item"
+                        className="home-stats_item "
                       >
                         <div className="text-color-accent">
                           <h2 className="heading-style-h1 mb-2">128</h2>
                         </div>
-                        <div className="text-color-offwhite">
+                        <div className="text-color-offwhite ">
                           <div className="text-size-regular fs-5">Units.</div>
                         </div>
                       </div>
@@ -271,10 +272,10 @@ export default function Home() {
                   <h2 className="text-dark text-3xl font-semibold">Amenities</h2>
                 </div>
               </div>
-              <div className="row my-2 py-1">
+              <div className="row my-2 py-1 px-3">
                 <AmenitiesCarousel />
               </div>
-              <div className="row my-2 py-1">
+              <div className="row my-2 py-1  px-3">
                 <AmenitiesCarouselTwo />
               </div>
             </div>
@@ -284,12 +285,12 @@ export default function Home() {
           </div>
 
 
-          <section className="section same-gap " id="specifications" style={{ backgroundColor: "#1e291d" }}>
-            <div className="container-fluid px-md-3 px-3 " style={{ "background-size": "60%", "background-position": "bottom", "background-repeat": "no-repeat" }}>
+          <section className="section same-gap d-md-block d-none " id="specifications" style={{ backgroundColor: "#1e291d" }}>
+            <div className="container-fluid px-md-5 px-3 " style={{ "background-size": "60%", "background-position": "bottom", "background-repeat": "no-repeat" }}>
               <div className="title text-center">
                 <h2 className="" style={{ "font-size": "36px !important", "color": "#fff" }}>Specifications</h2>
               </div>
-              <div className="col-md-11 d-block mx-auto  d-block mx-auto">
+              <div className="col-md-12 d-block mx-auto  d-block mx-auto">
                 <div className="row  ">
                   <div className="col-6 col-md-3 mb-4">
                     <div className="specifications-box">
@@ -389,93 +390,105 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-6 col-md-2 mb-4">
-                    <div className="specifications-box">
-                      <img src="/images/specifications/electrical-point.png" className="img-fluid" />
-                      <h3>Electrical POINTS</h3>
-                      <div className="specifications-box-content">
-                        <ul className='list-unstyled'>
-                          <li>Points for appliances and 2 extra plugs.<br />
-                            TV and phone points in the living and master bedrooms.<br />
-                            Geyser and exhaust fan points in toilets.<br />
-                            AC points in the living room, master bedroom, and children’s bedroom.
-                          </li>
-                        </ul>
+                 
+
+
+                  <div className="container text-center">
+                    <div className="row  row-cols-md-5 g-3 g-lg-3">
+                      <div className="col">
+                        <div className="specifications-box">
+                          <img src="/images/specifications/electrical-point.png" className="img-fluid" />
+                          <h3>Electrical POINTS</h3>
+                          <div className="specifications-box-content">
+                            <ul className='list-unstyled'>
+                              <li>Points for appliances and 2 extra plugs.<br />
+                                TV and phone points in the living and master bedrooms.<br />
+                                Geyser and exhaust fan points in toilets.<br />
+                                AC points in the living room, master bedroom, and children’s bedroom.
+                              </li>
+                            </ul>
+                          </div>
+                        </div></div>
+                      <div className="col">
+                        <div className="specifications-box">
+                          <img src="/images/specifications/elevator.png" className="img-fluid" />
+                          <h3>ELEVATOR</h3>
+                          <div className="specifications-box-content">
+                            <ul className='list-unstyled'>
+                              <li>6/8 passenger elevator from OTIS, or equivalent.</li>
+                            </ul>
+                          </div>
+                        </div>
                       </div>
+                      <div className="col">
+                        <div className="specifications-box">
+                          <img src="/images/specifications/toilets.png" className="img-fluid" />
+                          <h3>TOILETS (4’X2’)</h3>
+                          <div className="specifications-box-content">
+                            <ul className='list-unstyled'>
+                              <li>Antiskid ceramic tiles of reputed make and dado up to door height</li>
+
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col">
+                        <div className="specifications-box">
+                          <img src="/images/specifications/balcony.png" className="img-fluid" />
+                          <h3>UTILITY AND BALCONY</h3>
+                          <div className="specifications-box-content">
+                            <ul className='list-unstyled'>
+                              <li>Reputed anti-skid ceramic tiles in the utility area.
+
+                              </li>
+                              <li className='ps-3'>  •	Staircase – Natural Stone flooring with edge polish<br />
+                                •	Corridor – Reputed anti-skid vitrified tiles.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col d-none">
+                        <div className="specifications-box">
+                          <img src="/images/specifications/kitchen.png" className="img-fluid" />
+                          <h3>Kitchen </h3>
+                          <div className="specifications-box-content">
+                            <ul className='list-unstyled'>
+                              <li>Designer modular kitchen electrical points, water purifier/chimney provision, and washing machine space in the utility area.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col">
+                        <div className="specifications-box">
+                          <img src="/images/specifications/cp-sanitary.png" className="img-fluid" />
+                          <h3>CP & SANITARY {/*FITTINGS & FIXTURES*/} </h3>
+                          <div className="specifications-box-content">
+                            <ul className='list-unstyled'>
+                              <li>ISI CP and sanitary fittings from Grohe/Kohler, or equivalent.<br />
+                                Soft close seat cover and monolithic sink from TOTO/Kohler or equivalent.
+
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
                     </div>
                   </div>
 
-                  <div className="col-6 col-md-2 mb-4">
-                    <div className="specifications-box">
-                      <img src="/images/specifications/elevator.png" className="img-fluid" />
-                      <h3>ELEVATOR</h3>
-                      <div className="specifications-box-content">
-                        <ul className='list-unstyled'>
-                          <li>6/8 passenger elevator from OTIS, or equivalent.</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
 
-                  <div className="col-6 col-md-2 mb-4">
-                    <div className="specifications-box">
-                      <img src="/images/specifications/toilets.png" className="img-fluid" />
-                      <h3>TOILETS (4’X2’)</h3>
-                      <div className="specifications-box-content">
-                        <ul className='list-unstyled'>
-                          <li>Antiskid ceramic tiles of reputed make and dado up to door height</li>
 
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
 
-                  <div className="col-6 col-md-2 mb-4">
-                    <div className="specifications-box">
-                      <img src="/images/specifications/balcony.png" className="img-fluid" />
-                      <h3>UTILITY AND BALCONY</h3>
-                      <div className="specifications-box-content">
-                        <ul className='list-unstyled'>
-                          <li>Reputed anti-skid ceramic tiles in the utility area.
 
-                          </li>
-                          <li className='ps-3'>  •	Staircase – Natural Stone flooring with edge polish<br />
-                            •	Corridor – Reputed anti-skid vitrified tiles.</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-6 col-md-2 mb-4">
-                    <div className="specifications-box">
-                      <img src="/images/specifications/kitchen.png" className="img-fluid" />
-                      <h3>Kitchen </h3>
-                      <div className="specifications-box-content">
-                        <ul className='list-unstyled'>
-                          <li>Designer modular kitchen electrical points, water purifier/chimney provision, and washing machine space in the utility area.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-6 col-md-2 mb-4">
-                    <div className="specifications-box">
-                      <img src="/images/specifications/cp-sanitary.png" className="img-fluid" />
-                      <h3>CP & SANITARY FITTINGS & FIXTURES </h3>
-                      <div className="specifications-box-content">
-                        <ul className='list-unstyled'>
-                          <li>ISI CP and sanitary fittings from Grohe/Kohler, or equivalent.<br />
-                            Soft close seat cover and monolithic sink from TOTO/Kohler or equivalent.
 
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
+
+
                 </div>
               </div>
             </div>
           </section>
-
+          <Specifications />
 
           {/* Section 2: 360 Lifestyle Cards */}
           {/* <div className="section_biodiversity-benefits" id='amenities'>

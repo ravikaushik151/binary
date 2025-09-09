@@ -33,7 +33,7 @@ export default function AmenitiesCarouselTwo() {
     loop={true}
     dir="vertical"   // 👈 Makes it scroll in reverse
     breakpoints={{
-     320: { slidesPerView: 1 },
+     320: { slidesPerView: 2 },
      640: { slidesPerView: 2 },
      1024: { slidesPerView: 6 },
     }}
@@ -41,7 +41,7 @@ export default function AmenitiesCarouselTwo() {
    >
     {amenitiesTwo.map((item, i) => (
      <SwiperSlide key={i}>
-      <div className="text-center p-3 border">
+      <div className="text-center p-3 border  mb-1">
        <Image
         src={item.img}
         alt={item.title}

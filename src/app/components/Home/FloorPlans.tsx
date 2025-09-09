@@ -49,12 +49,12 @@ export default function FloorPlans() {
         >
           {floorPlans.map((src, index) => (
             <SwiperSlide key={index}>
-              <div className="gallery-item text-center mb-3">
+              <div className="gallery-item text-center my-3 ">
                 <img
                   src={src}
                   alt={`floor plan ${index + 1}`}
                   className="img-fluid mb-3 rounded-2"
-                  style={{ maxHeight: 450, objectFit: "contain" }}
+                  style={{  objectFit: "contain" }}
                 />
               </div>
             </SwiperSlide>

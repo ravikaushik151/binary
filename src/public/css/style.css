@@ -1337,8 +1337,9 @@ figcaption {
   background-color: var(--dark-rainforest);
   justify-content: center;
   align-items: flex-start;
-  height: 45vh;
-  padding-top: 4rem;
+ 
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   position: relative;
   overflow: hidden;
 }
@@ -4662,7 +4663,7 @@ figcaption {
   }
 
   .section_home-stats {
-    height: 85vh;
+   
     padding-top: 7.6rem;
   }
 
@@ -5598,8 +5599,9 @@ figcaption {
   }
 
   .section_home-stats {
-    height: 85vh;
-    padding-top: 4.5rem;
+  
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
 
   .home-stats_components {
@@ -6584,7 +6586,7 @@ figcaption {
   }
 
   .text-size-medium {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
   }
 
   .section_home-residental {

@@ -27,11 +27,11 @@ export default function AmenitiesCarousel() {
     modules={[Autoplay, Navigation]}
     spaceBetween={20}
     slidesPerView={5}
-    navigation
+    
     autoplay={{ delay: 2500, disableOnInteraction: false }}
     loop={true}
     breakpoints={{
-     320: { slidesPerView: 1 },
+     320: { slidesPerView: 2 },
      640: { slidesPerView: 2 },
      1024: { slidesPerView: 6 },
     }}
@@ -39,7 +39,7 @@ export default function AmenitiesCarousel() {
    >
     {amenities.map((item, i) => (
      <SwiperSlide key={i}>
-      <div className="text-center p-3 border">
+      <div className="text-center p-3 border mb-1">
        <Image
         src={item.img}
         alt={item.title}
