@@ -7,6 +7,7 @@ import Image from 'next/image';
 import HeroSlider from './components/Home/HeroSlider';
 import AmenitiesCarousel from "./components/Home/AmenitiesCarousel";
 import AmenitiesCarouselTwo from './components/Home/AmenitiesCarouselTwo';
+import Walkthrough from './components/Home/Walkthrough';
 
 export default function Home() {
 
@@ -106,7 +107,7 @@ export default function Home() {
                 </div>
                 <div className="col-6 col-md-3 border-end border-light mt-4 mt-md-0">
                   <h6 className="fw-bold text-uppercase fs-5">Starting Price</h6>
-                  <p className="mb-0 fs-2 fw-light">Rs 98 Lakh*</p>
+                  <p className="mb-0 fs-2 fw-light">Rs 92 Lakh*</p>
                 </div>
                 <div className="col-6 col-md-3 mt-4 mt-md-0">
                   <h6 className="fw-bold text-uppercase fs-5">Available Units</h6>
@@ -124,6 +125,11 @@ export default function Home() {
               </p>
               <p>From vision to reality, every detail matters — and at Binary Realty, we ensure each one brings you closer to a better way of living.
               </p>
+              <div className='py-3'>
+                <Link href="https://binaryrealty.in/" target='_blank' className="btn btn-dark " >
+                  Read More
+                </Link>
+              </div>
             </div>
             <div className="image-wrapper">
               <Image
@@ -219,14 +225,14 @@ export default function Home() {
           <section className="py-5 bg-light" id='price'>
             <div className="container">
               <h2 className='text-center'>Price</h2>
-              <div className="row justify-content-center g-4">
+              <div className="row justify-content-center g-4 mb-4">
                 {/* 2 BHK Card */}
                 <div className="col-12 col-md-6 col-lg-4">
                   <div className="pricing-card text-center p-4 rounded-4 shadow-sm bg-white">
                     <div className="bhk-tag border border-success text-success fw-bold py-2 rounded-3 mb-3">
                       2 BHK
                     </div>
-                    <h4 className="fw-bold mb-1">₹ 98 Lakh*</h4>
+                    <h4 className="fw-bold mb-1">₹ 92 Lakh*</h4>
                     <p className="mb-1">Onwards</p>
                     <p className="text-muted mb-3">Size – 1188 Sq.ft.</p>
                     <hr />
@@ -277,10 +283,10 @@ export default function Home() {
           </div>
 
 
-          <section className="section same-gap " id="specifications" style={{backgroundColor: "#1e291d"}}>
+          <section className="section same-gap " id="specifications" style={{ backgroundColor: "#1e291d" }}>
             <div className="container-fluid px-md-3 px-3 " style={{ "background-size": "60%", "background-position": "bottom", "background-repeat": "no-repeat" }}>
               <div className="title text-center">
-                <h2 className="" style={{ "font-size": "36px !important","color" : "#fff" }}>Specifications</h2>
+                <h2 className="" style={{ "font-size": "36px !important", "color": "#fff" }}>Specifications</h2>
               </div>
               <div className="col-md-11 d-block mx-auto  d-block mx-auto">
                 <div className="row  ">
@@ -488,9 +494,129 @@ export default function Home() {
 
 
           </div> */}
+
+
+          <section className="gallery-section same-gap white-bg blog" id="blog">
+            <div className="container">
+              <div className="title text-center">
+                <h2
+                  className="text-dark"
+                  style={{
+                    fontSize: "2.25rem  !important",
+                    fontWeight: "500 !important"
+                  }}
+                >
+                  {" "}
+                  Floor Plans
+                </h2>
+              </div>
+              <div className="row">
+                <div className="col-12 col-md-4 col-lg-3">
+                  <div className="gallery-item">
+                    <div className="img-cont">
+                      <img
+                        src="/images/floor-plan/Unit_1-8_North_Facing_FF_.jpg"
+                        alt="floor plan"
+                        width={750}
+                        height={500}
+                        className="img-fluid mb-3 rounded-2"
+                      />
+
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-md-4 col-lg-3">
+                  <div className="gallery-item">
+                    <div className="img-cont">
+                      <img
+                        src="/images/floor-plan/Unit_1-8_North_Facing_SF_.jpg"
+                        alt="floor plan"
+                        width={750}
+                        height={500}
+                        className="img-fluid mb-3 rounded-2"
+                      />
+
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-md-4 col-lg-3">
+                  <div className="gallery-item">
+                    <div className="img-cont">
+                      <img
+                        src="/images/floor-plan/Unit_9-11-13-14_East_Facing_FF_.jpg"
+                        alt="floor plan"
+                        width={750}
+                        height={500}
+                        className="img-fluid mb-3 rounded-2"
+                      />
+
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-md-4 col-lg-3">
+                  <div className="gallery-item">
+                    <div className="img-cont">
+                      <img
+                        src="/images/floor-plan/Unit_9-11-13-14_East_Facing_SF_.jpg"
+                        alt="floor plan"
+                        width={750}
+                        height={500}
+                        className="img-fluid mb-3 rounded-2"
+                      />
+
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-md-4 col-lg-3">
+                  <div className="gallery-item">
+                    <div className="img-cont">
+                      <img
+                        src="/images/floor-plan/Unit_10-12-15_East_Facing_FF_.jpg"
+                        alt="floor plan"
+                        width={750}
+                        height={500}
+                        className="img-fluid mb-3 rounded-2"
+                      />
+
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-md-4 col-lg-3">
+                  <div className="gallery-item">
+                    <div className="img-cont">
+                      <img
+                        src="/images/floor-plan/Unit_10-12-15_East_Facing_SF_.jpg"
+                        alt="floor plan"
+                        width={750}
+                        height={500}
+                        className="img-fluid mb-3 rounded-2"
+                      />
+
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-md-4 col-lg-3">
+                  <div className="gallery-item">
+                    <div className="img-cont">
+                      <img
+                        src="/images/floor-plan/Unit_16_East_Facing_.jpg"
+                        alt="floor plan"
+                        width={750}
+                        height={500}
+                        className="img-fluid mb-3 rounded-2"
+                      />
+
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </section>
           <div
             data-w-id="8905ac58-eaf7-356f-bf47-4ad8001e257f"
-            className="section_home-masterplan" id='master-plan'
+            className="section bg-light py-5" id='master-plan'
           >
             <div className="padding-global">
               <div className="container-large">
@@ -522,7 +648,9 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="section_home-connectivity" id='location'>
+          <Walkthrough />
+
+          <div className="section_home-connectivity  " id='location'>
             <div className="padding-global">
               <div className="container-large">
                 <div className="home-connectivity_components">
@@ -545,12 +673,12 @@ export default function Home() {
                       <div className="home-connectivity_heading-wrapper">
                         <h2
                           data-animate={1}
-                          className="heading-style-h2 text-color-offwhite"
-                        > Located{" "}<span className="text-color-accent">Off Sarjapur Road, </span>{" "} Bangalore.
+                          className="heading-style-h2 text-color-offwhite "
+                        > Located{" "}<span className="text-color-accent">On Sarjapur Road, </span>{" "} Bangalore.
                         </h2>
                       </div>
                       <div className="home-connectivity_text-wrapper">
-                        <div className="text-size-regular text-color-offwhite">
+                        <div className="text-size-regular text-color-offwhite  ">
                           A spacious urban corridor. Seamless access to IT hubs like Whitefield and Outer Ring Road. With fast-growing infrastructure and excellent connectivity across East and South Bengaluru, Sarjapura Road is emerging as the city’s next vibrant growth destination.
                         </div>
                       </div>
@@ -570,10 +698,10 @@ export default function Home() {
                         </div>
                         <div className="home-connectivity_distance-text">
                           <div className="text-color-offwhite">
-                            <div className="text-size-large">Wipro SEZ </div>
+                            <div className="text-size-large ">Wipro SEZ </div>
                           </div>
                           <div className="text-color-silvermist">
-                            <div className="text-size-regular">10 mins</div>
+                            <div className="text-size-regular ">10 mins</div>
                           </div>
                         </div>
                       </div>
@@ -591,10 +719,10 @@ export default function Home() {
                         </div>
                         <div className="home-connectivity_distance-text">
                           <div className="text-color-offwhite">
-                            <div className="text-size-large">RGA Tech Park</div>
+                            <div className="text-size-large ">RGA Tech Park</div>
                           </div>
                           <div className="text-color-silvermist">
-                            <div className="text-size-regular">12 mins</div>
+                            <div className="text-size-regular ">12 mins</div>
                           </div>
                         </div>
                       </div>
@@ -612,10 +740,10 @@ export default function Home() {
                         </div>
                         <div className="home-connectivity_distance-text">
                           <div className="text-color-offwhite">
-                            <div className="text-size-large">RMZ Ecoworld</div>
+                            <div className="text-size-large ">RMZ Ecoworld</div>
                           </div>
                           <div className="text-color-silvermist">
-                            <div className="text-size-regular">15 mins</div>
+                            <div className="text-size-regular ">15 mins</div>
                           </div>
                         </div>
                       </div>
@@ -630,10 +758,10 @@ export default function Home() {
                         </div>
                         <div className="home-connectivity_distance-text">
                           <div className="text-color-offwhite">
-                            <div className="text-size-large">Outer Ring Road</div>
+                            <div className="text-size-large ">Outer Ring Road</div>
                           </div>
                           <div className="text-color-silvermist">
-                            <div className="text-size-regular">15 mins</div>
+                            <div className="text-size-regular ">15 mins</div>
                           </div>
                         </div>
                       </div>
@@ -651,10 +779,10 @@ export default function Home() {
                         </div>
                         <div className="home-connectivity_distance-text">
                           <div className="text-color-offwhite">
-                            <div className="text-size-large">Sarjapur Main Road</div>
+                            <div className="text-size-large ">Sarjapur Main Road</div>
                           </div>
                           <div className="text-color-silvermist">
-                            <div className="text-size-regular">8 mins</div>
+                            <div className="text-size-regular ">8 mins</div>
                           </div>
                         </div>
                       </div>
@@ -669,10 +797,10 @@ export default function Home() {
                         </div>
                         <div className="home-connectivity_distance-text">
                           <div className="text-color-offwhite">
-                            <div className="text-size-large">HSR Layout</div>
+                            <div className="text-size-large ">HSR Layout</div>
                           </div>
                           <div className="text-color-silvermist">
-                            <div className="text-size-regular">20 mins</div>
+                            <div className="text-size-regular ">20 mins</div>
                           </div>
                         </div>
                       </div>

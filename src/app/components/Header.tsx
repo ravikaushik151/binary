@@ -34,7 +34,7 @@ export default function Header() {
             <nav className={`navbar-animated position-fixed top-0 w-100 navbar navbar-expand-lg bg-white d-md-none shadow-sm ${isVisible ? "navbar-visible bg-white shadow-sm" : "navbar-hidden"
                 }`} style={{ zIndex: 999 }}>
                 <div className="container-fluid">
-                    <Link href="/" className="navbar-brand">
+                    <Link href="https://binaryrealty.in/" target='_blank' className="navbar-brand">
                         <Image
                             src="/img/logo.png"
                             alt="logo"
@@ -81,7 +81,7 @@ export default function Header() {
             <div
                 className={`navbar-animated w-100 d-none d-md-block ${isVisible ? "navbar-visible bg-white" : "navbar-hidden"
                     } ${lastScrollY < 100 ? "bg-transparent" : ""}`}
-                style={{ zIndex: 999 , backgroundColor : "#1e291d !important"}}
+                style={{ zIndex: 999, backgroundColor: "#1e291d !important" }}
             >
                 <div className="container py-3 d-flex justify-content-between align-items-center">
                     <Link href="/">

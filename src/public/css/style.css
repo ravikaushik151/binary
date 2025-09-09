@@ -1548,7 +1548,7 @@ figcaption {
 
 .section_home-connectivity {
   background-color: #1e291d;
-  padding-top: 8rem;
+  padding-top: 5.5rem;
   position: relative;
   overflow: hidden;
 }
@@ -1571,9 +1571,9 @@ figcaption {
 
 .home-connectivity_content-wrapper {
   z-index: 1;
-  grid-row-gap: 7rem;
+  grid-row-gap: 5rem;
   flex-direction: column;
-  padding-bottom: 14.25rem;
+  padding-bottom: 5.5rem;
   display: flex;
   position: relative;
 }
