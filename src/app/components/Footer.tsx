@@ -201,7 +201,7 @@ export default function Footer() {
             </footer>
 
             {/* ---------------------- DOWNLOAD BROCHURE MODAL ---------------------- */}
-            <div className="modal fade" id="downloadBrochureModal" tabIndex="-1">
+            <div className="modal fade" id="downloadBrochureModal" tabIndex={-1}>
                 <div className="modal-dialog modal-dialog-centered">
                     <div className="modal-content">
                         <div className="modal-header">
@@ -228,7 +228,7 @@ export default function Footer() {
             </div>
 
             {/* ---------------------- ENQUIRE NOW MODAL ---------------------- */}
-            <div className="modal fade" id="enquireNowModal" tabIndex="-1">
+            <div className="modal fade" id="enquireNowModal" tabIndex={-1}>
                 <div className="modal-dialog modal-dialog-centered">
                     <div className="modal-content">
                         <div className="modal-header">
@@ -248,7 +248,7 @@ export default function Footer() {
                                     </button>
                                 </div>
                             </div>
-                            
+
                         </form>
                     </div>
                 </div>
