@@ -28,8 +28,8 @@ const slides = [
 ];
 
 export default function HomeHeroSlider() {
-  const prevRef = useRef(null);
-  const nextRef = useRef(null);
+  const prevRef = useRef<HTMLDivElement>(null);
+  const nextRef = useRef<HTMLDivElement>(null);
 
   return (
     <div className="overflow-hidden position-relative p-0 hero-slider">
@@ -40,10 +40,19 @@ export default function HomeHeroSlider() {
         loop
         autoplay={{ delay: 5000 }}
         className="custom-swiper"
-        onBeforeInit={(swiper) => {
-          // Assign custom navigation refs
-          swiper.params.navigation.prevEl = prevRef.current;
-          swiper.params.navigation.nextEl = nextRef.current;
+        onSwiper={(swiper) => {
+          // Delay to ensure refs are mounted
+          setTimeout(() => {
+            if (prevRef.current && nextRef.current) {
+              swiper.params.navigation.prevEl = prevRef.current as HTMLElement;
+              swiper.params.navigation.nextEl = nextRef.current as HTMLElement;
+
+              // Re-init navigation
+              swiper.navigation.destroy();
+              swiper.navigation.init();
+              swiper.navigation.update();
+            }
+          });
         }}
       >
         {slides.map((slide, i) => (
@@ -63,7 +72,7 @@ export default function HomeHeroSlider() {
           </SwiperSlide>
         ))}
 
-        {/* Custom buttons must be inside Swiper for refs to bind */}
+        {/* ✅ Custom navigation buttons */}
         <div ref={prevRef} className="swiper-button-prev text-white" />
         <div ref={nextRef} className="swiper-button-next text-white" />
       </Swiper>
