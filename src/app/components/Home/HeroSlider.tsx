@@ -10,20 +10,20 @@ import 'swiper/css/pagination';
 import Image from 'next/image';
 
 const slides = [
-  { 
-    title: 'Discover Homes', 
+  {
+    title: 'Discover Homes',
     img: '/images/WEBSITE-BANNER-01.avif',
     imgMobile: '/images/PHONE-BANNER-01.avif'
   },
-  { 
-    title: 'Luxury Meets Serenity', 
-    img: '/images/WEBSITE-BANNER-02.avif', 
-    imgMobile: '/images/PHONE-BANNER-02.avif' 
+  {
+    title: 'Luxury Meets Serenity',
+    img: '/images/WEBSITE-BANNER-02.avif',
+    imgMobile: '/images/PHONE-BANNER-02.avif'
   },
-  { 
-    title: 'Fresh Living', 
-    img: '/images/WEBSITE-BANNER-03.avif', 
-    imgMobile: '/images/PHONE-BANNER-01.avif' 
+  {
+    title: 'Fresh Living',
+    img: '/images/WEBSITE-BANNER-03.avif',
+    imgMobile: '/images/PHONE-BANNER-01.avif'
   },
 ];
 
@@ -43,9 +43,9 @@ export default function HomeHeroSlider() {
         onSwiper={(swiper) => {
           // Delay to ensure refs are mounted
           setTimeout(() => {
-            if (prevRef.current && nextRef.current) {
-              swiper.params.navigation.prevEl = prevRef.current as HTMLElement;
-              swiper.params.navigation.nextEl = nextRef.current as HTMLElement;
+            if (prevRef.current && nextRef.current && swiper.params.navigation && typeof swiper.params.navigation !== "boolean") {
+              swiper.params.navigation.prevEl = prevRef.current;
+              swiper.params.navigation.nextEl = nextRef.current;
 
               // Re-init navigation
               swiper.navigation.destroy();
