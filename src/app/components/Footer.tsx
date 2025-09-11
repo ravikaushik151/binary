@@ -73,43 +73,53 @@ export default function Footer() {
                 <div className="container">
                     <div className="row">
                         {/* Left side */}
-                        <div className="col-md-6">
-                            <div className="d-flex align-items-start">
-                                <div>
-                                    <a href="https://binaryrealty.in/" target="_blank" className="text-start">
+                        <div className="col-md-6 d-block">
+                            <div className="px-md-5">
+                                <div className="text-center text-md-start ps-md-5">
+                                    <a href="https://binaryrealty.in/" target="_blank" className="d-inline-block">
                                         <img
                                             src="/img/logo.png"
-                                            className="img-fluid text-start mb-3"
+                                            className="img-fluid mb-3"
                                             alt="Binary Realty"
                                             style={{ maxWidth: 120 }}
                                         />
                                     </a>
-                                    <address className="text-white text-start ps-md-5">
-                                        <strong>Binary Etania</strong> <br />
-                                        Sy no. 110/1B Hosahalli road,<br /> Sree Narayana Nagar,<br /> Chikkadunnasandra
-                                    </address>
-                                    <p className="text-start ps-md-5" style={{ fontSize: "13px", fontFamily: "Roboto" }}>
-                                        (+91)96112 11255
-                                    </p>
-                                    <p className="text-start ps-md-5" style={{ fontSize: "14px", fontFamily: "Roboto" }}>
-                                        sales@binaryrealty.in
-                                    </p>
                                 </div>
+
+                                <address className="text-white text-center text-md-start ps-md-5">
+                                    <strong>Binary Etania</strong> <br />
+                                    Sy no. 110/1B Hosahalli road,<br /> Sree Narayana Nagar,<br /> Chikkadunnasandra
+                                </address>
+
+                                <p
+                                    className="text-center text-md-start ps-md-5"
+                                    style={{ fontSize: "13px", fontFamily: "Roboto" }}
+                                >
+                                    (+91)96112 11255
+                                </p>
+
+                                <p
+                                    className="text-center text-md-start ps-md-5"
+                                    style={{ fontSize: "14px", fontFamily: "Roboto" }}
+                                >
+                                    sales@binaryrealty.in
+                                </p>
                             </div>
                         </div>
 
+
                         {/* Right side */}
-                        <div className="col-md-6 text-end d-block me-auto">
-                            <div className="px-3">
+                        <div className="col-md-6 text-end d-block me-md-auto mx-auto">
+                            <div className="px-md-3 ">
                                 <p className="mb-3">
-                                    <a href="./" className="px-3 text-white text-decoration-none fs-5">Home</a>
-                                    <a href="about" className="px-3 text-white text-decoration-none fs-5">About</a>
-                                    <a href="projects" className="px-3 text-white text-decoration-none fs-5">Projects</a>
-                                    <a href="career" className="px-3 text-white text-decoration-none fs-5">Careers</a>
-                                    <a href="blogs" className="px-3 text-white text-decoration-none fs-5">Blogs</a>
-                                    <a href="contact" className="px-3 text-white text-decoration-none fs-5">Contact</a>
+                                    <a href="./" className="px-md-3 px-1 text-white text-decoration-none fs-5">Home</a>
+                                    <a href="about" className="px-md-3 px-1 text-white text-decoration-none fs-5">About</a>
+                                    <a href="projects" className="px-md-3 px-1 text-white text-decoration-none fs-5">Projects</a>
+                                    <a href="career" className="px-md-3 px-1 text-white text-decoration-none fs-5">Careers</a>
+                                    <a href="blogs" className="px-md-3 px-1 text-white text-decoration-none fs-5">Blogs</a>
+                                    <a href="contact" className="px-md-3 px-1 text-white text-decoration-none fs-5">Contact</a>
                                 </p>
-                                <p className="fs-5 mt-5 mb-3 text-end">
+                                <p className="fs-md-5 fs-4 mt-5 mb-3 text-end m-center">
                                     Have something to talk about with our <br /> professionals?
                                 </p>
 
