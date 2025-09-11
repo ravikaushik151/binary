@@ -199,7 +199,7 @@ export default function Home() {
 
           <section className="bg-white p-0">
             <div className="container-fluid ">
-              <div className='row align-items-center d-md-block d-none'>
+              <div className='row align-items-center d-md-flex d-none'>
 
                 <div className='col-md-5 offset-md-1 px-md-5 d-flex align-items-center py-md-5 py-5 ' >
                   <div>
@@ -217,7 +217,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className='offset-md-1 col-md-5 '>
-                  <Image src={"/img/Binary-Etania.jpg"} alt="Etania" width={880} height={600} className="img-fluid " />
+                  <Image src={"/img/Binary-Etania.jpg"} alt="Etania" width={509} height={600} className="img-fluid " />
                 </div>
               </div>
               <div className='row align-items-center d-md-none'>
