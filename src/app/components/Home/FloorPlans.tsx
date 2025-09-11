@@ -20,7 +20,7 @@ export default function FloorPlans() {
   ];
 
   return (
-    <section className="gallery-section same-gap white-bg blog" id="blog">
+    <section className="gallery-section same-gap bg-white blog" id="blog">
       <div className="container">
         <div className="title text-center mb-4">
           <h2
@@ -49,11 +49,11 @@ export default function FloorPlans() {
         >
           {floorPlans.map((src, index) => (
             <SwiperSlide key={index}>
-              <div className="gallery-item text-center my-3 ">
+              <div className="gallery-item text-center pb-5 px-2">
                 <img
                   src={src}
                   alt={`floor plan ${index + 1}`}
-                  className="img-fluid mb-3 rounded-2"
+                  className="img-fluid mb-3  shadow-sm  p-1"
                   style={{  objectFit: "contain" }}
                 />
               </div>

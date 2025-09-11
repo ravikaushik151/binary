@@ -101,7 +101,7 @@ export default function HomeHeroSlider() {
       <div className="overflow-hidden position-relative p-0 hero-slider  d-md-none">
         <div className="position-relative">
           <Image
-            src="/images/PHONE-BANNER-02.avif"
+            src="/images/mobile-banner.jpg"
             alt="mobile slide"
             width={1980}
             height={824}
@@ -117,7 +117,7 @@ export default function HomeHeroSlider() {
             style={{
               position: "absolute",
               zIndex: 2,
-              left: "33.67%", top: "87.81%", width: "32.44%", height: "4.38%"
+              left: "33.67%", top: "49.45%", width: "32.44%", height: "4.38%"
             }}
           />
         </div>
