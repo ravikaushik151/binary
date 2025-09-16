@@ -203,12 +203,12 @@ export default function Home() {
 
                 <div className='col-md-5 offset-md-1 px-md-5 d-flex align-items-center py-md-5 py-5 ' >
                   <div>
-                    <h2 className="display-2 mb-4 text-secondary text-opacity-50 text-capitalize" style={{ fontSize: "3.6rem !important" }}>The Soul of  Etania</h2>
+                    <h2 className="display-2 mb-4 text-secondary text-opacity-50 text-capitalize p" style={{ fontSize: "3.6rem !important" }}>The Soul of  Etania</h2>
                     <p className="fs-2 ps-5 mb-3 text-black " style={{ fontFamily: "Times New Roman, sans-serif !important" }} >  Every Home here carries a rare</p>
                     <h1 className="display-2 ps-5 text-uppercase mb-0" style={{ letterSpacing: '2px' }}> Aura</h1>
                     <p className='text-secondary   ps-md-5 ps-5 mt-0 mb-3'>At Etania, every home is more than wall and windows - <br /> it carries oan AURA that makes life rare.
                     </p>
-                    <div className=' ps-md-5 ps-5'>
+                    <div className=' ps-md-5 ps-5 '>
                       <Link href="aura" className="btn btn-dark " >
                         View More
                       </Link>
@@ -216,8 +216,8 @@ export default function Home() {
 
                   </div>
                 </div>
-                <div className='offset-md-1 col-md-5 '>
-                  <Image src={"/img/Binary-Etania.jpg"} alt="Etania" width={509} height={600} className="img-fluid " />
+                <div className='pe-md-5 ms-auto pt-md-4 col-md-5 mb-0'>
+                  <Image src={"/img/Binary-Etania.jpg"} alt="Etania" width={509} height={438} className="img-fluid " />
                 </div>
               </div>
               <div className='row align-items-center d-md-none'>

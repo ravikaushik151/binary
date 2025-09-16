@@ -101,7 +101,7 @@ export default function HomeHeroSlider() {
       <div className="overflow-hidden position-relative p-0 hero-slider  d-md-none">
         <div className="position-relative">
           <Image
-            src="/images/mobile-banner.jpg"
+            src="/images/mobile-banner.avif"
             alt="mobile slide"
             width={1980}
             height={824}

@@ -10,13 +10,13 @@ import "swiper/css/pagination";
 
 export default function FloorPlans() {
   const floorPlans = [
-    "/images/floor-plan/Unit_1-8_North_Facing_FF_.jpg",
-    "/images/floor-plan/Unit_1-8_North_Facing_SF_.jpg",
-    "/images/floor-plan/Unit_9-11-13-14_East_Facing_FF_.jpg",
-    "/images/floor-plan/Unit_9-11-13-14_East_Facing_SF_.jpg",
-    "/images/floor-plan/Unit_10-12-15_East_Facing_FF_.jpg",
-    "/images/floor-plan/Unit_10-12-15_East_Facing_SF_.jpg",
-    "/images/floor-plan/Unit_16_East_Facing_.jpg",
+    "/images/floor-plan/Unit_1-8_North_Facing_FF_.avif",
+    "/images/floor-plan/Unit_1-8_North_Facing_SF_.avif",
+    "/images/floor-plan/Unit_9-11-13-14_East_Facing_FF_.avif",
+    "/images/floor-plan/Unit_9-11-13-14_East_Facing_SF_.avif",
+    "/images/floor-plan/Unit_10-12-15_East_Facing_FF_.avif",
+    "/images/floor-plan/Unit_10-12-15_East_Facing_SF_.avif",
+    "/images/floor-plan/Unit_16_East_Facing_.avif",
   ];
 
   return (
