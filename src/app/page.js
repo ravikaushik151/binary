@@ -286,13 +286,13 @@ export default function Home() {
             <div className="container">
               <div className="row">
                 <div className="title text-center mb-6">
-                  <h2 className="text-dark text-3xl font-semibold">Amenities</h2>
+                  <h2 className="text-dark text-3xl font-semibold ">AMENITIES</h2>
                 </div>
               </div>
-              <div className="row my-2 py-1 px-3">
+              <div className="row ">
                 <AmenitiesCarousel />
               </div>
-              <div className="row my-2 py-1  px-3">
+              <div className="row ">
                 <AmenitiesCarouselTwo />
               </div>
             </div>
@@ -305,7 +305,7 @@ export default function Home() {
           <section className="section same-gap d-md-block d-none " id="specifications" style={{ backgroundColor: "#1e291d" }}>
             <div className="container-fluid px-md-5 px-3 " style={{ "background-size": "60%", "background-position": "bottom", "background-repeat": "no-repeat" }}>
               <div className="title text-center">
-                <h2 className="" style={{ "font-size": "36px !important", "color": "#fff" }}>Specifications</h2>
+                <h2 className="" style={{ "fontSize": "36px !important", "color": "#fff" }}>Specifications</h2>
               </div>
               <div className="col-md-12 d-block mx-auto  d-block mx-auto">
                 <div className="row  ">

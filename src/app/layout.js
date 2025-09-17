@@ -7,7 +7,7 @@ import '../public/css/style.css';
 import '../app/globals.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+//import '@fortawesome/fontawesome-free/css/all.min.css';
 import { useEffect } from 'react';
 import localFont from "next/font/local";
 

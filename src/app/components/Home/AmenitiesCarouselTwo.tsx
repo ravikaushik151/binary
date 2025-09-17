@@ -45,11 +45,11 @@ export default function AmenitiesCarouselTwo() {
      640: { slidesPerView: 2 },
      1024: { slidesPerView: 6 },
     }}
-    className="px-1 mb-5"
+    className="p-2"
    >
     {amenitiesTwo.map((item, i) => (
      <SwiperSlide key={i}>
-      <div className="text-center px-1 border mb-1 d-flex justify-content-center align-items-center h-100 mb-3">
+      <div className="text-center px-1 border  d-flex justify-content-center align-items-center h-100 ">
        <div>
           <Image
         src={item.img}

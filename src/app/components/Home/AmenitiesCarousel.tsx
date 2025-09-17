@@ -42,7 +42,7 @@ export default function AmenitiesCarousel() {
      640: { slidesPerView: 2 },
      1024: { slidesPerView: 6 },
     }}
-    className="px-1"
+    className="p-2"
    >
     {amenities.map((item, i) => (
      <SwiperSlide key={i}>

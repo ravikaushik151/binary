@@ -19,7 +19,7 @@ export default function Aura() {
                                     {" "}
                                     <p className="text-center d-block fs-1 mb-0 text-uppercase">
                                         {" "}
-                                        About us
+                                       Aura
                                     </p>
                                     <p className="text-center d-block fs-6 my-3">
                                         <Link
@@ -29,7 +29,7 @@ export default function Aura() {
                                             {" "}
                                             Home
                                         </Link>{" "}
-                                        / About Us{" "}
+                                        /   Aura{" "}
                                     </p>
                                 </div>
                             </div>
