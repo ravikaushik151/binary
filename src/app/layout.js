@@ -95,7 +95,7 @@ export default function RootLayout({ children }) {
           {children}
           <Footer />
         </div>
-        <Script
+        {/* <Script
           src="/js/main.js"
           strategy="afterInteractive"
           onLoad={() => {
@@ -104,7 +104,7 @@ export default function RootLayout({ children }) {
           onError={(e) => {
             console.error('Failed to load interactions', e);
           }}
-        />
+        /> */}
         <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></Script>
       </body>
     </html>
