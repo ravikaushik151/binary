@@ -103,8 +103,8 @@ export default function HomeHeroSlider() {
           <Image
             src="/images/mobile-banner.avif"
             alt="mobile slide"
-            width={1980}
-            height={824}
+            width={412}
+            height={732}
             className="img-fluid"
             priority
           />
