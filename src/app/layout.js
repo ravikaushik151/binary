@@ -6,7 +6,7 @@ import Script from 'next/script';
 //import '../public/css/style.css';
 //import '../app/globals.css';
 import '../app/globals-new.css';
-
+import 'swiper/swiper-bundle.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 //import '@fortawesome/fontawesome-free/css/all.min.css';

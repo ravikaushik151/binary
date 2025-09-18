@@ -2,7 +2,7 @@
 import { useEffect } from 'react';
 
 import Link from "next/link";
-import Amenities from './components/Amenities';
+//import Amenities from './components/Amenities';
 import Image from 'next/image';
 import HeroSlider from './components/Home/HeroSlider';
 import AmenitiesCarousel from "./components/Home/AmenitiesCarousel";
