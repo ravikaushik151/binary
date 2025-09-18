@@ -107,6 +107,7 @@ export default function HomeHeroSlider() {
             height={732}
             className="img-fluid"
             priority 
+            fetchPriority="high"
           />
           {/* ✅ Slide-specific link */}
           <a
