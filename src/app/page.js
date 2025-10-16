@@ -11,6 +11,7 @@ import Walkthrough from './components/Home/Walkthrough';
 import FloorPlans from './components/Home/FloorPlans';
 import Specifications from './components/Home/Specifications';
 
+
 export default function Home() {
 
   useEffect(() => {
